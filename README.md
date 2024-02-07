@@ -17,7 +17,7 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ### [Suicide Prevention](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
-In this project, I conducted a thorough analysis of suicide trends, highlighting vulnerable groups like those aged 35-54 and the Silent generation. The findings emphasize the need for holistic approaches, targeted interventions based on age and gender, and the crucial link between economic factors and mental health. See more [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/Suicide_Rates.ipynb) for more details.
+In this project, I conducted a thorough analysis of suicide trends, highlighting vulnerable groups like those aged 35-54 and the Silent generation. The findings emphasize the need for holistic approaches, targeted interventions based on age and gender, and the crucial link between economic factors and mental health. See more [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb) for more details.
 
 ![Project 1 Screenshot](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/Suicide%20Prevention.png)
 
