@@ -63,3 +63,13 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 ## 🎓 Education
 
 ### Telecommunications Engineering at Kenyatta University | 2014 - 2018
+
+<!-- GitHub Stats Section -->
+## 📊 GitHub Stats
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&hide=contribs,issues&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+<!-- Footer Section -->
+Feel free to roam around my GitHub repositories and drop me a line for a chat or collaboration! 🚀 Whether it's serious coding or just nerding out over the latest tech, I'm always up for it.😄
