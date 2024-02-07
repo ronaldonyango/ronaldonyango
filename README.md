@@ -8,7 +8,6 @@ I transform data into insights, one line of code at a time. Currently riding the
 🌱 **Currently Diving Into:** Data Engineering  
 💡 **On a Mission:** Turning data chaos into structured insights  
 🚀 **Open to:** Exciting collaborations in the Data Science realm  
-📫 **Connect:** [✉️ Email](mailto:ronaldoyw@gmail.com) | [🔗 LinkedIn](https://www.linkedin.com/in/ronaldonyango) | [🚀 Kaggle](https://www.kaggle.com/ronaldonyango) | [📝 Medium](https://medium.com/@ronaldonyango)
 
 ---
 
@@ -73,3 +72,6 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 
 <!-- Footer Section -->
 Feel free to roam around my GitHub repositories and drop me a line for a chat or collaboration! 🚀 Whether it's serious coding or just nerding out over the latest tech, I'm always up for it.😄
+
+
+[<img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" alt="Gmail" width="15" height="15">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="15" height="15">](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="Kaggle" width="15" height="15">](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" alt="Medium" width="15" height="15">](https://medium.com/@ronaldonyango)&nbsp;&nbsp;[🔗 Portfolio](https://www.datascienceportfol.io/ronaldonyango)
