@@ -1,20 +1,17 @@
 <!-- Introduction Section -->
 # Hey there! 👋 I'm Ronald Onyango, your Data Alchemist.
 
-I weave magic with data, turning raw information into refined insights, one line of code at a time.
+I transform data into insights, one line of code at a time. Currently riding the data wave, specializing in Data Engineering and always hungry for new challenges.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ronaldonyango&color=brightgreen)
 
 🌱 **Currently Navigating:** Data Engineering  
-💡 **On a Mission:** Taming data chaos, sculpting it into structured insights  
-🚀 **Open to:** Exciting collaborations in the Data Science universe
+💡 **On a Mission:** Turning data chaos into structured insights
+🚀 **Open to:** Exciting collaborations in Data Science
 
 📫 **Connect with me:**
-[✉️ Email](mailto:ronaldoyw@gmail.com) | 
-<img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="20" height="20"> [LinkedIn](https://www.linkedin.com/in/ronaldonyango) | 
-<img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="Kaggle" width="20" height="20"> [Kaggle](https://www.kaggle.com/ronaldonyango) | 
-<img src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" alt="Medium" width="20" height="20"> [Medium](https://medium.com/@ronaldonyango) | 
-[🌐 Portfolio](#)
+
+[✉️ Email](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;&nbsp;[<img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="LinkedIn" width="20" height="20">](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-icon.svg" alt="Kaggle" width="20" height="20">](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" alt="Medium" width="20" height="20">](https://medium.com/@ronaldonyango)&nbsp;&nbsp;[🌐 Portfolio](https://www.datascienceportfol.io/ronaldonyango)
 
 ---
 
