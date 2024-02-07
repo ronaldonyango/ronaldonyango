@@ -39,10 +39,10 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 
 **Skills:**
 
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">SQL</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Python</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Data Visualization</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; font-size: 12px;">Airflow</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">SQL</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Python</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Data Visualization</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; font-size: 12px;">Airflow</span>
 
 ### Product & Operations Intern at MESH | 2021
 
@@ -53,8 +53,8 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 
 **Skills:**
 
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Quality Assurance</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; font-size: 12px;">SQL</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Quality Assurance</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; font-size: 12px;">SQL</span>
 
 ### Board Chairperson/Co-founder at Amazing Minds Africa | 2021 - 2023
 
@@ -65,10 +65,10 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 
 **Skills:**
 
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">UX Research</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Stakeholder Management</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Communication</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #f0f0f0; padding: 8px 15px; font-size: 12px;">Data Analysis</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">UX Research</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Stakeholder Management</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Communication</span>
+<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; font-size: 12px;">Data Analysis</span>
 
 ---
 
