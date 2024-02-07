@@ -37,12 +37,7 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 - Conducted user research, usability tests, and A/B tests to check on user flow and ensure the app reflects the mental model of Kenyan micro-entrepreneurs.
 - Collaborated with cross-functional stakeholders, including front-end and back-end developers, to monitor user activity following various iterations.
 
-**Skills:**
-
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">SQL</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Python</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Data Visualization</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; font-size: 12px;">Airflow</span>
+**Skills:** SQL, Python, Data Visualization, Airflow, ETL, Stakeholder Management, Communication, Storytelling
 
 ### Product & Operations Intern at MESH | 2021
 
@@ -51,10 +46,7 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 - Collected customer requirements, directed testing, and conducted continuous evaluations, making proactive adjustments to marketing approaches.
 - Supported marketing teams, creating, deploying, and optimizing campaigns for customers, resulting in an active monthly user base of 30% of the registered base.
 
-**Skills:**
-
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Quality Assurance</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; font-size: 12px;">SQL</span>
+**Skills:** Quality Assurance, SQL, Product Testing, Campaign Management
 
 ### Board Chairperson/Co-founder at Amazing Minds Africa | 2021 - 2023
 
@@ -63,12 +55,7 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 - Partnered with Basic Needs, CitiesRise, and Center for Public Health Development to increase mental health awareness, reaching 200,000+ youths.
 - Spearheaded annual board meetings, briefed stakeholders on project progress, and completed 100% of partner and donor-funded projects.
 
-**Skills:**
-
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">UX Research</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Stakeholder Management</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; margin-right: 8px; font-size: 12px;">Communication</span>
-<span style="display: inline-block; border-radius: 20px; background-color: #0366d6; color: #004080; padding: 8px 15px; font-size: 12px;">Data Analysis</span>
+**Skills:** UX Research, Stakeholder Management, Communication, Data Analysis, Leadership
 
 ---
 
