@@ -35,6 +35,7 @@ I transform data into insights, one line of code at a time. Currently riding the
 - [How to become a Data Analyst](https://medium.com/@ronaldonyango/mastering-sql-tools-and-data-engineering-a-self-taught-analysts-journey-6cd36e49c8ed?source=rss-b646665c09cd------2)
 - [Revolutionizing Cross-Functional Communication for Enhanced Productivity](https://medium.com/@ronaldonyango/revolutionizing-cross-functional-communication-for-enhanced-productivity-6a013768609d?source=rss-b646665c09cd------2)
 <!-- BLOG-POST-LIST:END -->
+➡️ [more blog posts...](https://medium.com/@ronaldonyango)
 
 ---
 
