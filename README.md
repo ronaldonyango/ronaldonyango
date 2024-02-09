@@ -15,17 +15,23 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 <img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
 <img align="left" alt="SQL Developer" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqldeveloper/sqldeveloper-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Apache Airflow" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" style="padding-right:10px;" />
 <img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />
 <img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Postgres" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" style="padding-right:10px;" />
 <img align="left" alt="Selenium" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Wordpress" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" style="padding-right:10px;" />
 <img align="left" alt="AzureSQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
 <img align="left" alt="AzureDevOps" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" style="padding-right:10px;" />
 </br>
 </br>
+
+---
+
+### Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
@@ -38,7 +44,7 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 In this project, I conducted a thorough analysis of suicide trends, highlighting vulnerable groups like those aged 35-54 and the Silent generation. The findings emphasize the need for holistic approaches, targeted interventions based on age and gender, and the crucial link between economic factors and mental health. See [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb) for more details.
 
-###### ***Python | Data modelling | Data visualization***
+###### **Python | Data modelling | Data visualization**
 
 </br>
 </br>
@@ -49,7 +55,7 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 
 The Data Export and Scheduling Tool is a professional command-line utility designed to facilitate data export from databases to multiple formats (including CSV, XLSX, and JSON) and enable scheduled recurring exports. It offers users a convenient solution for automating data exports from both database tables and queries. See [data-export-tool repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/data-exports-tool.ipynb) for more details.
 
-###### ***SQL | Python | Database manipulation | Data visualization***
+###### **SQL | Python | Database manipulation | Data visualization**
 </br>
 </br>
 </br>
