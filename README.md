@@ -18,6 +18,10 @@ Tools I use:
 
 ---
 
+## Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 <!-- Project Section -->
 ## 🚀 Portfolio
 
