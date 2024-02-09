@@ -5,8 +5,11 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ronaldonyango&color=brightgreen)
 
+### Connect with me
+[<img align="left" alt="Email" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" style="padding-right:10px;">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img align="left" alt="LinkedIn" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Kaggle" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" style="padding-right:10px;" />](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Medium" width="26px" src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" style="padding-right:10px;">](https://medium.com/@ronaldonyango)[🌐](https://www.datascienceportfol.io/ronaldonyango)
+
 <!-- Tools Section -->
-## 💻 Tech Stack
+### 💻 Tech Stack
 
 <img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
 <img align="left" alt="SQL Developer" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqldeveloper/sqldeveloper-original.svg" style="padding-right:10px;" />
@@ -27,14 +30,14 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ---
 
-# Blog posts
+### Blog posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
 <!-- Project Section -->
-## 🚀 Portfolio
+### 🚀 Portfolio
 
-### [Suicide Prevention](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+#### [Suicide Prevention](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
 <img align="right" alt="GIF" src="./img/projects/suicide_rates_eda.png" width="400" height="200" />
 
@@ -46,7 +49,7 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 
 ---
 
-### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+#### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
 <img align="left" alt="GIF" src="./img/projects/data_export_tool.png" width="400" height="200" />
 
@@ -66,6 +69,3 @@ The Data Export and Scheduling Tool is a professional command-line utility desig
 
 <!-- Footer Section -->
 Feel free to roam around my GitHub repositories and drop me a line for a chat or collaboration! 🚀 Whether it's serious coding or just nerding out over the latest tech, I'm always up for it.😄
-
-
-[<img align="left" alt="Email" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" style="padding-right:10px;">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img align="left" alt="LinkedIn" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Kaggle" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" style="padding-right:10px;" />](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Medium" width="26px" src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" style="padding-right:10px;">](https://medium.com/@ronaldonyango)[🌐](https://www.datascienceportfol.io/ronaldonyango)
