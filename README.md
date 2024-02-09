@@ -5,9 +5,14 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ronaldonyango&color=brightgreen)
 
-🌱 **Currently Diving Into:** Data Engineering  
-💡 **On a Mission:** Turning data chaos into structured insights  
-🚀 **Open to:** Exciting collaborations in the Data Science realm  
+<code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-64.png"></code>
+<code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-64.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
+<code><img height="20" src="https://seeklogo.com/images/P/power-bi-logo-1F3A1217D0-seeklogo.com.png"></code>
+<code><img height="20" src="https://seeklogo.com/images/T/tableau-software-logo-081AF6D95D-seeklogo.com.png"></code>
+<code><img height="20" src="https://seeklogo.com/images/A/airflow-logo-A19E5B6709-seeklogo.com.png"></code>
 
 ---
 
