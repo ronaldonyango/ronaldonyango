@@ -5,6 +5,8 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ronaldonyango&color=brightgreen)
 
+---
+
 ### Connect with me
 [<img align="left" alt="Email" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" style="padding-right:10px;">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img align="left" alt="LinkedIn" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Kaggle" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" style="padding-right:10px;" />](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Medium" width="26px" src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" style="padding-right:10px;">](https://medium.com/@ronaldonyango)[🌐](https://www.datascienceportfol.io/ronaldonyango)
 
@@ -27,10 +29,6 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ---
 
-### Blog posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 <!-- Project Section -->
 ### 🚀 Portfolio
 
@@ -44,21 +42,22 @@ In this project, I conducted a thorough analysis of suicide trends, highlighting
 </br>
 </br>
 
----
-
 #### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
 <img align="left" alt="GIF" src="./img/projects/data_export_tool.png" width="400" height="200" />
 
-The Data Export and Scheduling Tool is a professional command-line utility designed to facilitate data export from databases to multiple formats (including CSV, XLSX, and JSON) and enable scheduled recurring exports. It offers users a convenient solution for automating data exports from both database tables and queries, providing flexibility in export customization and the ability to manage multiple export tasks simultaneously. See more [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/data-exports-tool.ipynb) for more details.
+The Data Export and Scheduling Tool is a professional command-line utility designed to facilitate data export from databases to multiple formats (including CSV, XLSX, and JSON) and enable scheduled recurring exports. It offers users a convenient solution for automating data exports from both database tables and queries. See [data-export-tool repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/data-exports-tool.ipynb) for more details.
 
 
 [![View More](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
+</br>
+</br>
+
 ---
 
 <!-- GitHub Stats Section -->
-## 📊 GitHub Stats
+### 📊 My GitHub stats
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&hide=contribs,issues&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
