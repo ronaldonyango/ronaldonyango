@@ -5,6 +5,8 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ronaldonyango&color=brightgreen)
 
+Tools I use:
+
 <code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-64.png"></code>
 <code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-64.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
@@ -36,11 +38,6 @@ The Data Export and Scheduling Tool is a professional command-line utility desig
 [![View Project](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
 ---
-
-<!-- Education Section -->
-## 🎓 Education
-
-### Telecommunications Engineering at Kenyatta University | 2014 - 2018
 
 <!-- GitHub Stats Section -->
 ## 📊 GitHub Stats
