@@ -35,40 +35,6 @@ The Data Export and Scheduling Tool is a professional command-line utility desig
 
 [![View Project](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
-
----
-
-<!-- Work Experience Section -->
-## 💼 Work Experience
-
-### Operations Specialist at MESH | 2021 - Present
-
-- Part of the team that successfully launched MESH, a social networking platform for youth micro-entrepreneurs in Kenya, currently with 150K+ users.
-- Conducted sales analysis, generating reports in Excel, and identified opportunities to increase sales by 35% in 4 months.
-- Analyzed daily reports, business summary reports, and dashboard recaps to attain data based on product features, presenting recommendations that optimized reach by 40%.
-- Conducted user research, usability tests, and A/B tests to check on user flow and ensure the app reflects the mental model of Kenyan micro-entrepreneurs.
-- Collaborated with cross-functional stakeholders, including front-end and back-end developers, to monitor user activity following various iterations.
-
-**Skills:** SQL, Python, Data Visualization, Airflow, ETL, Stakeholder Management, Communication, Storytelling
-
-### Product & Operations Intern at MESH | 2021
-
-- Reduced testing time by 50% and increased accuracy in testing by 90% through automation tool creation.
-- Designed sprint testing processes and templates, enabling a pass rate of 95%.
-- Collected customer requirements, directed testing, and conducted continuous evaluations, making proactive adjustments to marketing approaches.
-- Supported marketing teams, creating, deploying, and optimizing campaigns for customers, resulting in an active monthly user base of 30% of the registered base.
-
-**Skills:** Quality Assurance, SQL, Product Testing, Campaign Management
-
-### Board Chairperson/Co-founder at Amazing Minds Africa | 2021 - 2023
-
-- Conceptualized successful mental health therapy for youths on campus, through forum theatres, buddy groups, and youth community chapters, contributing to a 17% reduction in the suicide rate among youths on campus.
-- Developed a mental health toolkit, helping 10,000+ campus students deal with mental health issues.
-- Partnered with Basic Needs, CitiesRise, and Center for Public Health Development to increase mental health awareness, reaching 200,000+ youths.
-- Spearheaded annual board meetings, briefed stakeholders on project progress, and completed 100% of partner and donor-funded projects.
-
-**Skills:** UX Research, Stakeholder Management, Communication, Data Analysis, Leadership
-
 ---
 
 <!-- Education Section -->
