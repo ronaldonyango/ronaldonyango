@@ -23,19 +23,26 @@ Tools I use:
 
 ### [Suicide Prevention](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
+<img align="right" alt="GIF" src="https://github.com/ronaldonyango/suicide-rates-eda/blob/main/Suicide%20Prevention.png" width="400" height="200" />
+
 In this project, I conducted a thorough analysis of suicide trends, highlighting vulnerable groups like those aged 35-54 and the Silent generation. The findings emphasize the need for holistic approaches, targeted interventions based on age and gender, and the crucial link between economic factors and mental health. See [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb) for more details.
 
-![Project 1 Screenshot](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/Suicide%20Prevention.png)
 
-[![View Project](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
-### [Suicide Prevention](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+[![View More](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+
+
+
+---
+
+### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+
+<img align="left" alt="GIF" src="https://github.com/ronaldonyango/data-export-tool/blob/master/User%20Interface.png" width="400" height="200" />
 
 The Data Export and Scheduling Tool is a professional command-line utility designed to facilitate data export from databases to multiple formats (including CSV, XLSX, and JSON) and enable scheduled recurring exports. It offers users a convenient solution for automating data exports from both database tables and queries, providing flexibility in export customization and the ability to manage multiple export tasks simultaneously. See more [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/data-exports-tool.ipynb) for more details.
 
-![Project 1 Screenshot](https://github.com/ronaldonyango/data-export-tool/blob/master/User%20Interface.png)
 
-[![View Project](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+[![View More](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
 ---
 
