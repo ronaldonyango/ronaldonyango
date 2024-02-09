@@ -5,6 +5,10 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ronaldonyango&color=brightgreen)
 
+## Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 Tools I use:
 
 <code><img height="20" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-64.png"></code>
