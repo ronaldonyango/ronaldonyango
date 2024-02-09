@@ -21,10 +21,7 @@ I transform data into insights, one line of code at a time. Currently riding the
 <img align="left" alt="AzureSQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
-<img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png" style="padding-right:10px;" />
 <img align="left" alt="AzureDevOps" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Terminal" width="26px" src="./img/terminal-light.svg" />
-<img align="left" alt="Terminal" width="26px" src="./img/terminal-dark.svg" />
 </br>
 </br>
 
@@ -43,7 +40,7 @@ I transform data into insights, one line of code at a time. Currently riding the
 
 In this project, I conducted a thorough analysis of suicide trends, highlighting vulnerable groups like those aged 35-54 and the Silent generation. The findings emphasize the need for holistic approaches, targeted interventions based on age and gender, and the crucial link between economic factors and mental health. See [suicide-rates-eda repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb) for more details.
 
-[![View More](https://img.shields.io/badge/View%20Project-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
+[![View More](https://img.shields.io/badge/View%20More-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 </br>
 </br>
 
@@ -64,6 +61,8 @@ The Data Export and Scheduling Tool is a professional command-line utility desig
 ## 📊 GitHub Stats
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&hide=contribs,issues&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ronaldonyango&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
