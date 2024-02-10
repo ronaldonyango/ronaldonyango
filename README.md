@@ -5,10 +5,6 @@
 
 ---
 
-### Connect with me
-[<img align="left" alt="Email" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" style="padding-right:10px;">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img align="left" alt="LinkedIn" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Kaggle" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" style="padding-right:10px;" />](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Medium" width="26px" src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" style="padding-right:10px;">](https://medium.com/@ronaldonyango)[🌐](https://www.datascienceportfol.io/ronaldonyango)
-</br>
-
 <!-- Tools Section -->
 
 ### 💻 Tech Stack
@@ -107,3 +103,9 @@ Features:
 
 <!-- Footer Section -->
 Feel free to roam around my GitHub repositories and drop me a line for a chat or collaboration! 🚀 Whether it's serious coding or just nerding out over the latest tech, I'm always up for it.😄
+
+**Star this repository** 
+</br>
+**Connect with me**
+
+[<img align="left" alt="Email" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" style="padding-right:10px;">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img align="left" alt="LinkedIn" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Kaggle" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" style="padding-right:10px;" />](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Medium" width="26px" src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" style="padding-right:10px;">](https://medium.com/@ronaldonyango)[🌐](https://www.datascienceportfol.io/ronaldonyango)
