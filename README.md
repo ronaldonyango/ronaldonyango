@@ -1,5 +1,5 @@
 <!-- Introduction Section -->
-# Hey there!👋 I'm Ronald Onyango, a Data Enthusiast.
+# Hey there!👋 I'm Ronald Onyango, a Data enthusiast by day, problem-solving ninja by night
 
 Passionate about building robust data pipelines and transforming data into actionable insights. I believe data can tell compelling stories.
 
@@ -65,7 +65,7 @@ Key findings:
 - Age group 35-54 & the Silent Generation show higher vulnerability.
 - Economic factors play a significant role.
 
-[Project website](https://www.datascienceportfol.io/ronaldonyango/projects/5) & [Code repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb)
+Check out the [Project website](https://www.datascienceportfol.io/ronaldonyango/projects/5) & [Code repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb)
 
 #### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
@@ -78,7 +78,7 @@ Features:
 - Export from tables and queries.
 - Schedule recurring exports.
 
-[Code repository](https://github.com/ronaldonyango/data-export-tool/)
+Check out the [Code repository](https://github.com/ronaldonyango/data-export-tool/)
 
 </br>
 
