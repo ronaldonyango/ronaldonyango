@@ -17,7 +17,7 @@ Passionate about building robust data pipelines and transforming data into actio
 </br>
 
 <details>
-  <summary>:zap: View full list of tech stack</summary>
+  <summary>:zap: And more...</summary>
 </br>
   
 <img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
