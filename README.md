@@ -62,13 +62,10 @@ This project analyzes suicide trends, highlighting vulnerable groups. It emphasi
 
 Key findings:
 
-- Age group 35-54 and the Silent Generation show higher vulnerability.
-- Holistic approaches and targeted interventions are crucial.
+- Age group 35-54 & the Silent Generation show higher vulnerability.
 - Economic factors play a significant role.
-</br>
 
-- [Project website](https://www.datascienceportfol.io/ronaldonyango/projects/5)
-- [Code repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb)
+[Project website](https://www.datascienceportfol.io/ronaldonyango/projects/5) & [Code repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb)
 
 #### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
 
@@ -80,10 +77,8 @@ Features:
 
 - Export from tables and queries.
 - Schedule recurring exports.
-- User-friendly command-line interface.
-</br>
 
-- [Code repository](https://github.com/ronaldonyango/data-export-tool/)
+[Code repository](https://github.com/ronaldonyango/data-export-tool/)
 
 </br>
 
