@@ -43,9 +43,9 @@ Passionate about building robust data pipelines and transforming data into actio
 
 ### Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [How I would learn SQL if I started again](https://medium.com/@ronaldonyango/how-i-would-learn-sql-if-i-started-again-15a45aafeff5?source=rss-b646665c09cd------2)
 - [Global Suicide Rates &lpar;1985–2016&rpar;: Insights for Effective Prevention](https://medium.com/@ronaldonyango/global-suicide-rates-1985-2016-insights-for-effective-prevention-262590d6adfe?source=rss-b646665c09cd------2)
-- [How to become a Data Analyst](https://medium.com/@ronaldonyango/mastering-sql-tools-and-data-engineering-a-self-taught-analysts-journey-6cd36e49c8ed?source=rss-b646665c09cd------2)
-- [Revolutionizing Cross-Functional Communication for Enhanced Productivity](https://medium.com/@ronaldonyango/revolutionizing-cross-functional-communication-for-enhanced-productivity-6a013768609d?source=rss-b646665c09cd------2)
+- [How I became a Data Analyst in just 3 months](https://medium.com/@ronaldonyango/mastering-sql-tools-and-data-engineering-a-self-taught-analysts-journey-6cd36e49c8ed?source=rss-b646665c09cd------2)
 <!-- BLOG-POST-LIST:END -->
 ➡️ [Read more on my blog...](https://medium.com/@ronaldonyango)
 
