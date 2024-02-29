@@ -83,7 +83,7 @@ Features:
 - User-friendly command-line interface.
 </br>
 
-**See the code:** ***[Data Export Tool repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/data-exports-tool.ipynb).***
+**See the code:** ***[Data Export Tool repository](https://github.com/ronaldonyango/data-export-tool).***
 
 </br>
 
