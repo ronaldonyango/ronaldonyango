@@ -94,7 +94,7 @@ I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extrac
       <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Socioeconomic Factors-239120?style=flat-square&logo=Data&logoColor=white" alt="Socioeconomic Factors"></a>
     </p>
     <p>Check out my published dataset on Kaggle, exploring the relationship between suicide rates and socioeconomic factors across different countries and regions.</p>
-    <p><a href="https://www.kaggle.com/datasets/ronaldonyango/suicide-rates-overview-1985-to-2016" target="_blank" style="text-decoration: none; background-color: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 5px;">View Dataset</a></p>
+    <p><a href="https://www.kaggle.com/datasets/ronaldonyango/global-suicide-rates-1990-to-2022?select=suicide_rates_1990-2022.csv" target="_blank" style="text-decoration: none; background-color: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 5px;">View Dataset</a></p>
   </div>
 </div>
 
