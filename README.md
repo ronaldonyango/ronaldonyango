@@ -1,6 +1,6 @@
 # Ronald Onyango <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-[![Linkedin Badge](https://img.shields.io/badge/-ronaldonyango-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ronaldonyango/)](https://www.linkedin.com/in/ronaldonyango/) [![Gmail Badge](https://img.shields.io/badge/-ronaldoyw@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ronaldoyw@gmail.com)](mailto:ronaldoyw@gmail.com) [![Kaggle Badge](https://img.shields.io/badge/-ronaldonyango-20bafa?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/ronaldonyango)](https://www.kaggle.com/ronaldonyango)
+[![Linkedin Badge](https://img.shields.io/badge/-ronaldonyango-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ronaldonyango/)](https://www.linkedin.com/in/ronaldonyango/) [![Gmail Badge](https://img.shields.io/badge/-ronaldoyw@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ronaldoyw@gmail.com)](mailto:ronaldoyw@gmail.com) [![Kaggle Badge](https://img.shields.io/badge/-ronaldonyango-20bafa?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/ronaldonyango)](https://www.kaggle.com/ronaldonyango)[![Medium Badge](https://img.shields.io/badge/-Medium-05122A?style=flat&logo=medium)](https://medium.com/@ronaldonyango)
 
 I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extracting insights from data, one line of code at a time, and I'm always eager for new challenges.
 
@@ -8,19 +8,35 @@ I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extrac
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=postgresql)&nbsp;
-![Apache Airflow](https://img.shields.io/badge/-Apache%20Airflow-05122A?style=flat&logo=apacheairflow)&nbsp;
 ![Pandas](https://img.shields.io/badge/-Pandas-05122A?style=flat&logo=pandas)&nbsp;
 ![Numpy](https://img.shields.io/badge/-Numpy-05122A?style=flat&logo=numpy)&nbsp;
-![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)&nbsp;
-![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql)&nbsp;
-![Postgres](https://img.shields.io/badge/-Postgres-05122A?style=flat&logo=postgresql)&nbsp;
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-05122A?style=flat&logo=matplotlib)&nbsp;
-![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-05122A?style=flat&logo=googlecloud)&nbsp;
-![Selenium](https://img.shields.io/badge/-Selenium-05122A?style=flat&logo=selenium)&nbsp;
-![WordPress](https://img.shields.io/badge/-WordPress-05122A?style=flat&logo=wordpress)&nbsp;
-![Azure SQL](https://img.shields.io/badge/-Azure%20SQL-05122A?style=flat&logo=microsoftsqlserver)&nbsp;
+![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=Tableau&logoColor=white)&nbsp;
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=Power%20BI&logoColor=black)&nbsp;
+![Excel](https://img.shields.io/badge/-Excel-217346?style=flat&logo=Microsoft%20Excel&logoColor=white)&nbsp;
+![Google Analytics](https://img.shields.io/badge/-Google%20Analytics-E37400?style=flat&logo=Google%20Analytics&logoColor=white)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-05122A?style=flat&logo=azuredevops)&nbsp;
+![R](https://img.shields.io/badge/-R-276DC3?style=flat&logo=R&logoColor=white)&nbsp;
+![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=flat&logo=Jupyter&logoColor=white)&nbsp;
+![Apache Airflow](https://img.shields.io/badge/-Apache%20Airflow-E25A1C?style=flat&logo=Apache%20Airflow&logoColor=white)&nbsp;
+
+### Additional Tools & Technologies
+
+<details>
+  
+![Seaborn](https://img.shields.io/badge/-Seaborn-05122A?style=flat&logo=seaborn)
+![Plotly](https://img.shields.io/badge/-Plotly-05122A?style=flat&logo=plotly)
+![Google Data Studio](https://img.shields.io/badge/-Google%20Data%20Studio-05122A?style=flat&logo=google%20data%20studio)
+![Apache](https://img.shields.io/badge/-Apache-05122A?style=flat&logo=apache)
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
+![Google Cloud Platform](https://img.shields.io/badge/-Google%20Cloud%20Platform-05122A?style=flat&logo=google%20cloud)
+![GitLab](https://img.shields.io/badge/-GitLab-05122A?style=flat&logo=gitlab)
+![Bitbucket](https://img.shields.io/badge/-Bitbucket-05122A?style=flat&logo=bitbucket)
+![Jira](https://img.shields.io/badge/-Jira-05122A?style=flat&logo=jira)
+![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
+![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-05122A?style=flat&logo=azuredevops)
+</details>
 
 ## 📰 Latest Insights
 
