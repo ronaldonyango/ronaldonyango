@@ -1,111 +1,118 @@
-<!-- Introduction Section -->
-# Hey there! 👋 I'm Ronald Onyango, a Data Enthusiast.
+# Ronald Onyango <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
- > I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extracting insights from data, one line of code at a time, and I'm always eager for new challenges.
+[![Linkedin Badge](https://img.shields.io/badge/-ronaldonyango-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ronaldonyango/)](https://www.linkedin.com/in/ronaldonyango/) [![Gmail Badge](https://img.shields.io/badge/-ronaldoyw@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ronaldoyw@gmail.com)](mailto:ronaldoyw@gmail.com) [![Kaggle Badge](https://img.shields.io/badge/-ronaldonyango-20bafa?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/ronaldonyango)](https://www.kaggle.com/ronaldonyango)
 
----
+I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extracting insights from data, one line of code at a time, and I'm always eager for new challenges.
 
-<!-- Tools Section -->
+## 🛠️ Technologies & Tools
 
-### 💻 Tech Stack
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
+![SQL](https://img.shields.io/badge/-SQL-05122A?style=flat&logo=postgresql)&nbsp;
+![Apache Airflow](https://img.shields.io/badge/-Apache%20Airflow-05122A?style=flat&logo=apacheairflow)&nbsp;
+![Pandas](https://img.shields.io/badge/-Pandas-05122A?style=flat&logo=pandas)&nbsp;
+![Numpy](https://img.shields.io/badge/-Numpy-05122A?style=flat&logo=numpy)&nbsp;
+![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)&nbsp;
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql)&nbsp;
+![Postgres](https://img.shields.io/badge/-Postgres-05122A?style=flat&logo=postgresql)&nbsp;
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-05122A?style=flat&logo=matplotlib)&nbsp;
+![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-05122A?style=flat&logo=googlecloud)&nbsp;
+![Selenium](https://img.shields.io/badge/-Selenium-05122A?style=flat&logo=selenium)&nbsp;
+![WordPress](https://img.shields.io/badge/-WordPress-05122A?style=flat&logo=wordpress)&nbsp;
+![Azure SQL](https://img.shields.io/badge/-Azure%20SQL-05122A?style=flat&logo=microsoftsqlserver)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-05122A?style=flat&logo=azuredevops)&nbsp;
 
-<img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
-<img align="left" alt="SQL Developer" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqldeveloper/sqldeveloper-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Apache Airflow" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" style="padding-right:10px;" /><img align="left" alt="Pandas" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Numpy" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" style="padding-right:10px;" />
-</br>
-</br>
+## 📰 Latest Insights
 
-<details>
-  <summary>⚡ View full list of tech stach</summary>
-</br>
-  
-<img align="left" alt="Python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
-<img align="left" alt="SQL Developer" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqldeveloper/sqldeveloper-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Apache Airflow" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" style="padding-right:10px;" />
-<img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />
-<img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Postgres" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" style="padding-right:10px;" />
-<img align="left" alt="Pandas" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Numpy" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Matplotlib" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Google Cloud" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Selenium" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Wordpress" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" style="padding-right:10px;" />
-<img align="left" alt="AzureSQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" style="padding-right:10px;" />
-<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
-<img align="left" alt="AzureDevOps" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" style="padding-right:10px;" />
-</br>
-</br>
-</details>
-
----
-
-### Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Global suicide rates analysis](https://medium.com/@ronaldonyango/global-suicide-rates-analysis-4480af7754fd?source=rss-b646665c09cd------2)
 - [How I would learn SQL if I started again](https://medium.com/@ronaldonyango/how-i-would-learn-sql-if-i-started-again-15a45aafeff5?source=rss-b646665c09cd------2)
 - [How I became a Data Analyst in just 3 months](https://medium.com/@ronaldonyango/mastering-sql-tools-and-data-engineering-a-self-taught-analysts-journey-6cd36e49c8ed?source=rss-b646665c09cd------2)
 <!-- BLOG-POST-LIST:END -->
-➡️ [more blog posts...](https://medium.com/@ronaldonyango)
+
+➡️ [More insights...](https://medium.com/@ronaldonyango)
+
+## 🌟 Featured Projects
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
+  <div style="display: flex; flex: 1 1 800px; max-width: 800px; background-color: #f8f8f8; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <div style="flex: 1; margin-right: 1.5rem;">
+      <h3 style="margin-top: 0;">Suicide Prevention</h3>
+      <p>This project analyzes suicide trends, highlighting vulnerable groups. It emphasizes targeted interventions and the link between economic factors and mental health.</p>
+      <p><strong>Key Insights:</strong></p>
+      <ul>
+        <li>Age group 35-54 and the Silent Generation show higher vulnerability.</li>
+        <li>Holistic approaches and targeted interventions are crucial.</li>
+        <li>Economic factors play a significant role in mental health.</li>
+      </ul>
+      <p><a href="https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb" target="_blank" style="text-decoration: none; background-color: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 5px;">See the code</a></p>
+    </div>
+    <div style="flex: 0 0 300px;">
+      <img src="./img/projects/suicide_rates_eda.png" alt="Suicide Prevention" style="max-width: 100%; border-radius: 5px;">
+      <p style="margin-top: 1rem;">
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" alt="Python"></a>
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=Pandas&logoColor=white" alt="Pandas"></a>
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Matplotlib-43853D?style=flat-square&logo=Matplotlib&logoColor=white" alt="Matplotlib"></a>
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Data Analysis-FF6F00?style=flat-square&logo=Data Analysis&logoColor=white" alt="Data Analysis"></a>
+      </p>
+    </div>
+  </div>
+
+  <div style="display: flex; flex: 1 1 800px; max-width: 800px; background-color: #f8f8f8; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <div style="flex: 1; margin-right: 1.5rem; order: 2;">
+      <h3 style="margin-top: 0;">Data Export & Scheduling Tool</h3>
+      <p>This tool automates data exports from databases to various formats (CSV, XLSX, JSON) on a scheduled basis.</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>Export from tables and queries.</li>
+        <li>Schedule recurring exports.</li>
+        <li>User-friendly command-line interface.</li>
+      </ul>
+      <p><a href="https://github.com/ronaldonyango/data-export-tool" target="_blank" style="text-decoration: none; background-color: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 5px;">See the code</a></p>
+    </div>
+    <div style="flex: 0 0 300px; order: 1;">
+      <img src="./img/projects/data_export_tool.png" alt="Data Export & Scheduling Tool" style="max-width: 100%; border-radius: 5px;">
+      <p style="margin-top: 1rem;">
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" alt="Python"></a>
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=PostgreSQL&logoColor=white" alt="SQL"></a>
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Automation-FF6F00?style=flat-square&logo=Automation&logoColor=white" alt="Automation"></a>
+        <a href="#" target="_blank"><img src="https://img.shields.io/badge/-CLI-239120?style=flat-square&logo=Command Line&logoColor=white" alt="CLI"></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
+  <div style="flex: 1 1 400px; max-width: 600px; background-color: #f8f8f8; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+      <h3 style="margin-top: 0; margin-bottom: 0;">Published Kaggle Dataset</h3>
+    </div>
+    <p>
+      <a href="#" target="_blank"><img src="https://img.shields.io/badge/-EDA-FF6F00?style=flat-square&logo=Data Analysis&logoColor=white" alt="EDA"></a>
+      <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Suicide Rates-4479A1?style=flat-square&logo=Data&logoColor=white" alt="Suicide Rates"></a>
+      <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Socioeconomic Factors-239120?style=flat-square&logo=Data&logoColor=white" alt="Socioeconomic Factors"></a>
+    </p>
+    <p>Check out my published dataset on Kaggle, exploring the relationship between suicide rates and socioeconomic factors across different countries and regions.</p>
+    <p><a href="https://www.kaggle.com/datasets/ronaldonyango/suicide-rates-overview-1985-to-2016" target="_blank" style="text-decoration: none; background-color: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 5px;">View Dataset</a></p>
+  </div>
+</div>
+
+[![View More Projects](https://img.shields.io/badge/View%20More%20Projects-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango)
+
+## &#x1f4c8; GitHub Stats
+
+<a href="https://github.com/ronaldonyango/ronaldonyango">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&hide=contribs,issues&count_private=true&theme=tokyonight" alt="Ronald's GitHub Stats" />
+</a>
+
+<a href="https://github.com/ronaldonyango/ronaldonyango">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ronaldonyango&layout=compact&theme=tokyonight" />
+</a>
+
+Feel free to explore my GitHub repositories and reach out for collaboration or just to chat about the latest tech! 🚀 I'm always excited to connect with fellow enthusiasts. 😄
+
+**Star this repository**
 
 ---
 
-<!-- Project Section -->
-### 🚀 Portfolio
-
-#### [Suicide Prevention](https://www.datascienceportfol.io/ronaldonyango/projects/5)
-
-<img align="left" alt="GIF" src="./img/projects/suicide_rates_eda.png" width="400" height="200" />
-
-This project analyzes suicide trends, highlighting vulnerable groups. It emphasizes targeted interventions and the link between economic factors and mental health.
-
-Key findings:
-
-- Age group 35-54 and the Silent Generation show higher vulnerability.
-- Holistic approaches and targeted interventions are crucial.
-- Economic factors play a significant role.
-</br>
-
-**See the code:** ***[Suicide Rates EDA repository](https://github.com/ronaldonyango/suicide-rates-eda/blob/main/suicide-rates-eda.ipynb)***.
-</br>
-</br>
-
-#### [Data Export & Scheduling Tool](https://www.datascienceportfol.io/ronaldonyango/projects/5)
-
-<img align="left" alt="GIF" src="./img/projects/data_export_tool.png" width="400" height="200" />
-
-This tool automates data exports from databases to various formats (CSV, XLSX, JSON) on a scheduled basis.
-
-Features:
-
-- Export from tables and queries.
-- Schedule recurring exports.
-- User-friendly command-line interface.
-</br>
-
-**See the code:** ***[Data Export Tool repository](https://github.com/ronaldonyango/data-export-tool).***
-
-</br>
-
-[![Data Science Portfolio](https://img.shields.io/badge/View%20More%20Projects-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango)
-
----
-
-<!-- GitHub Stats Section -->
-### 📊 My GitHub stats
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&hide=contribs,issues&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ronaldonyango&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-<!-- Footer Section -->
-Feel free to roam around my GitHub repositories and drop me a line for a chat or collaboration! 🚀 Whether it's serious coding or just nerding out over the latest tech, I'm always up for it.😄
-
-**Star this repository** 
-</br>
-**Connect with me**
-
-[<img align="left" alt="Email" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" style="padding-right:10px;">](mailto:ronaldoyw@gmail.com)&nbsp;&nbsp;[<img align="left" alt="LinkedIn" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Kaggle" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg" style="padding-right:10px;" />](https://www.kaggle.com/ronaldonyango)&nbsp;&nbsp;[<img align="left" alt="Medium" width="26px" src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" style="padding-right:10px;">](https://medium.com/@ronaldonyango)[🌐](https://www.datascienceportfol.io/ronaldonyango)
+⭐️ From [ronaldonyango](https://github.com/ronaldonyango)
