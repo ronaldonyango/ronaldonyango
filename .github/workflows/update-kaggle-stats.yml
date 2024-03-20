@@ -2,31 +2,33 @@ name: Update README with Kaggle stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run every daily at 00:00 UTC
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Run daily at 00:00 UTC
+  workflow_dispatch:  # Allow manual triggers
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: '3.9'
+
     - name: Install dependencies
-      run: pip install kaggle
+      run: |
+        pip install kaggle
+
     - name: Fetch Kaggle stats
+      id: fetch_stats
       env:
         KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
       run: |
-        python fetch_kaggle_stats.py > stats.txt
+        python fetch_kaggle_stats.py
+
     - name: Update README
-      uses: Kurdanets/readme-update@master
-      with:
-        file: README.md
-        update-mode: replace
-        shield-link: https://shields.io/static/v1?label=Views&message={views}&color=blue
-        shield-link-2: https://shields.io/static/v1?label=Downloads&message={downloads}&color=green
-        views-from-file: stats.txt
-        downloads-from-file: stats.txt
+      run: |
+        sed -i "s/{views}/$(cat stats.txt | awk 'NR==1')/g" README.md
+        sed -i "s/{downloads}/$(cat stats.txt | awk 'NR==2')/g" README.md
