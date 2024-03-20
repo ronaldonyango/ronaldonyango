@@ -114,6 +114,9 @@ I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extrac
   </div>
 </div>
 
+![Views Badge](https://shields.io/static/v1?label=Views&message=0&color=blue)
+![Downloads Badge](https://shields.io/static/v1?label=Downloads&message=0&color=green)
+
 [![View More Projects](https://img.shields.io/badge/View%20More%20Projects-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango)
 
 ## &#x1f4c8; GitHub Stats
