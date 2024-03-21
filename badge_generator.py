@@ -1,3 +1,8 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import time
+from selenium.webdriver.common.by import By
+
 def update_readme(readme_file_path, badge_id, new_badge):
     new_file_content = ''
     # id used to identify position of badge
