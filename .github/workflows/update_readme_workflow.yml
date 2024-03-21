@@ -13,6 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Install Kaggle CLI
+        run: |
+          pip install kaggle
+          kaggle --install-opendataset-cli
+
       - name: Install jq
         run: sudo apt-get install -y jq
 
