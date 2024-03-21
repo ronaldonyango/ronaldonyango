@@ -52,7 +52,7 @@ def get_download_count(kaggle_url: str):
 def main():
     readme_file_path = "README.md"  # relative to root directory
     # change this url
-    url = 'https://www.kaggle.com/datasets/utkarshx27/marijuana-arrests-in-columbia'
+    url = 'https://www.kaggle.com/datasets/ronaldonyango/global-suicide-rates-1990-to-2022'
     badge_id = 1  # each badge must be given a unique id
     x = get_download_count(url)
     y = create_badge(badge_id, x)
