@@ -8,8 +8,8 @@ I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extrac
 
 This is my awesome Kaggle dataset!
 
-![Total Views](http://img.shields.io/badge/Total%20Views-8102-blue)(#)
-![Total Downloads](http://img.shields.io/badge/Total%20Downloads-1697-brightgreen)(#)
+![Total Views](http://img.shields.io/badge/Total%20Views-8102-blue)
+![Total Downloads](http://img.shields.io/badge/Total%20Downloads-1697-brightgreen)
 
 ...
 
