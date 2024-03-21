@@ -1,0 +1,24 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install kaggle
+
+      - name: Download metadata and update README
+        run: python update_readme.py
