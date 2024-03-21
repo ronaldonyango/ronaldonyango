@@ -3,7 +3,7 @@ name: Update README
 on:
   push:
     branches:
-      - '*'  # Trigger on all branches
+      - master
   workflow_dispatch: # Enable manual triggering
 
 jobs:
@@ -13,11 +13,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
       - name: Read metadata
         id: read_metadata
         run: |
-          totalViews=$(jq -r '.totalViews' ronaldonyango/global-suicide-rates-1990-to-2022.json)
-          totalDownloads=$(jq -r '.totalDownloads' ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          metadata=$(jq . ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          totalViews=$(echo "$metadata" | jq '.totalViews')
+          totalDownloads=$(echo "$metadata" | jq '.totalDownloads')
           echo "Total Views: $totalViews"
           echo "Total Downloads: $totalDownloads"
           echo "::set-output name=totalViews::$totalViews"
@@ -25,8 +29,8 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s|\[!\[Total Views\](.*)\]|![Total Views](http://img.shields.io/badge/Total%20Views-${{ steps.read_metadata.outputs.totalViews }}-blue)|" README.md
-          sed -i "s|\[!\[Total Downloads\](.*)\]|![Total Downloads](http://img.shields.io/badge/Total%20Downloads-${{ steps.read_metadata.outputs.totalDownloads }}-brightgreen)|" README.md
+          sed -i "s/\[!\[Total Views\](http:\/\/img\.shields\.io\/badge\/Total%20Views-[0-9]+-blue)\]/[![Total Views](http:\/\/img\.shields\.io\/badge\/Total%20Views-${{ steps.read_metadata.outputs.totalViews }}-blue)](#)/" README.md
+          sed -i "s/\[!\[Total Downloads\](http:\/\/img\.shields\.io\/badge\/Total%20Downloads-[0-9]+-brightgreen)\]/[![Total Downloads](http:\/\/img\.shields\.io\/badge\/Total%20Downloads-${{ steps.read_metadata.outputs.totalDownloads }}-brightgreen)](#)/" README.md
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
