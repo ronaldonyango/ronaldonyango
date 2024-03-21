@@ -1,34 +1,41 @@
-name: Update README with Kaggle stats
+name: Kaggle Badge Generator
 
 on:
+  push:
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at 00:00 UTC
-  workflow_dispatch:  # Allow manual triggers
+    - cron: '0 * * * *' #  run every hour
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'
+      - name: checkout repo content
+        uses: actions/checkout@v3
 
-    - name: Install dependencies
-      run: |
-        pip install kaggle
+      - name: setup python with pip cache
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' 
+          cache: 'pip' # caching pip dependencies
 
-    - name: Fetch Kaggle stats
-      id: fetch_stats
-      env:
-        KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
-      run: |
-        python fetch_kaggle_stats.py
-
-    - name: Update README
-      run: |
-        sed -i "s/{views}/$(cat stats.txt | awk 'NR==1')/g" README.md
-        sed -i "s/{downloads}/$(cat stats.txt | awk 'NR==2')/g" README.md
+      - name : install any new dependencies
+        run: pip install -r requirements.txt
+          
+      - name: execute py script 
+        run: python badge_generator.py 
+        
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          timestamp=$(date -u)
+          git diff-index --quiet HEAD || (git commit -a -m "Last badge update : ${timestamp}" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
