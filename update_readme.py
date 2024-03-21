@@ -41,8 +41,8 @@ def update_readme(views, downloads):
         file.write(updated_readme)
 
 if __name__ == "__main__":
-    username = '<username>'
-    dataset_name = '<dataset-name>'
+    username = 'ronaldonyango'
+    dataset_name = 'global-suicide-rates-1990-to-2022'
     
     download_dataset_metadata(username, dataset_name)
     views, downloads = extract_metadata()
