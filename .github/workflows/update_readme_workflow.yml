@@ -30,8 +30,8 @@ jobs:
       - name: Generate badges
         id: generate_badges
         run: |
-          totalViewsBadge="[![Total Views](http://img.shields.io/badge/Total%20Views-$((totalViews))-blue)](#)"
-          totalDownloadsBadge="[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-$((totalDownloads))-brightgreen)](#)"
+          totalViewsBadge="[![Total Views](http://img.shields.io/badge/Total%20Views-$((totalViews))-blue)]"
+          totalDownloadsBadge="[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-$((totalDownloads))-brightgreen)]"
           echo "::set-output name=totalViewsBadge::$totalViewsBadge"
           echo "::set-output name=totalDownloadsBadge::$totalDownloadsBadge"
 
