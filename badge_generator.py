@@ -49,7 +49,7 @@ def get_download_count(kaggle_url: str):
     time.sleep(3)
     downloads_element = driver.find_element(
         By.XPATH,
-        '//*[@id="site-content"]/div[2]/div/div[5]/div[6]/div[2]/div[1]/div/div[3]/h1')
+        '//*[@id="site-content"]/div[2]/div/div[2]/div/div[6]/div[6]/div[2]/div[2]/div[2]/div[2]/h5')
     download_count = downloads_element.get_attribute("textContent")
     return (download_count)
 
