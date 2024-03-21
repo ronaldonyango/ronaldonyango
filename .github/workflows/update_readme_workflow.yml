@@ -19,26 +19,18 @@ jobs:
       - name: Read metadata
         id: read_metadata
         run: |
-          metadata=$(< ronaldonyango/global-suicide-rates-1990-to-2022.json)
-          totalViews=$(echo "$metadata" | jq -r '.totalViews')
-          totalDownloads=$(echo "$metadata" | jq -r '.totalDownloads')
+          metadata=$(jq . ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          totalViews=$(echo "$metadata" | jq '.view_count')
+          totalDownloads=$(echo "$metadata" | jq '.download_count')
           echo "Total Views: $totalViews"
           echo "Total Downloads: $totalDownloads"
           echo "::set-output name=totalViews::$totalViews"
           echo "::set-output name=totalDownloads::$totalDownloads"
 
-      - name: Generate badges
-        id: generate_badges
-        run: |
-          totalViewsBadge="[![Total Views](http://img.shields.io/badge/Total%20Views-$((totalViews))-blue)]"
-          totalDownloadsBadge="[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-$((totalDownloads))-brightgreen)]"
-          echo "::set-output name=totalViewsBadge::$totalViewsBadge"
-          echo "::set-output name=totalDownloadsBadge::$totalDownloadsBadge"
-
       - name: Update README
         run: |
-          sed -i "s|\[!\[Total Views\]\(.*\)\]|${{ steps.generate_badges.outputs.totalViewsBadge }}|" README.md
-          sed -i "s|\[!\[Total Downloads\]\(.*\)\]|${{ steps.generate_badges.outputs.totalDownloadsBadge }}|" README.md
+          sed -i "s/\[\!\[Total Views\]\(http:\/\/img\.shields\.io\/badge\/Total%20Views-[0-9]\+-blue\)\]/\[\!\[Total Views\]\(http:\/\/img\.shields\.io\/badge\/Total%20Views-${{ steps.read_metadata.outputs.totalViews }}-blue\)\]/" README.md
+          sed -i "s/\[\!\[Total Downloads\]\(http:\/\/img\.shields\.io\/badge\/Total%20Downloads-[0-9]\+-brightgreen\)\]/\[\!\[Total Downloads\]\(http:\/\/img\.shields\.io\/badge\/Total%20Downloads-${{ steps.read_metadata.outputs.totalDownloads }}-brightgreen\)\]/" README.md
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
