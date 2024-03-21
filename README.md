@@ -4,15 +4,6 @@
 
 I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extracting insights from data, one line of code at a time, and I'm always eager for new challenges.
 
-# My Kaggle Dataset
-
-This is my awesome Kaggle dataset!
-
-![Total Views](http://img.shields.io/badge/Total%20Views-8102-blue)
-![Total Downloads](http://img.shields.io/badge/Total%20Downloads-1697-brightgreen)
-
-...
-
 ## 🛠️ Technologies & Tools
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
@@ -108,25 +99,11 @@ This is my awesome Kaggle dataset!
   </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1 1 400px; max-width: 600px; background-color: #f8f8f8; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-      <h3 style="margin-top: 0; margin-bottom: 0;">Published Kaggle Dataset</h3>
-    </div>
-    <p>
-      <a href="#" target="_blank"><img src="https://img.shields.io/badge/-EDA-FF6F00?style=flat-square&logo=Data Analysis&logoColor=white" alt="EDA"></a>
-      <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Suicide Rates-4479A1?style=flat-square&logo=Data&logoColor=white" alt="Suicide Rates"></a>
-      <a href="#" target="_blank"><img src="https://img.shields.io/badge/-Socioeconomic Factors-239120?style=flat-square&logo=Data&logoColor=white" alt="Socioeconomic Factors"></a>
-    </p>
-    <p>Check out my published dataset on Kaggle, exploring the relationship between suicide rates and socioeconomic factors across different countries and regions.</p>
-    <p><a href="https://www.kaggle.com/datasets/ronaldonyango/global-suicide-rates-1990-to-2022?select=suicide_rates_1990-2022.csv" target="_blank" style="text-decoration: none; background-color: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 5px;">View Dataset</a></p>
-  </div>
-</div>
-
-![Views Badge](https://shields.io/static/v1?label=Views&message=0&color=blue)
-![Downloads Badge](https://shields.io/static/v1?label=Downloads&message=0&color=green)
-
 [![View More Projects](https://img.shields.io/badge/View%20More%20Projects-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango)
+
+## Kaggle datasets 👩🏽‍💻
+![Total Views](http://img.shields.io/badge/Total%20Views-8103-blue)
+![Total Downloads](http://img.shields.io/badge/Total%20Downloads-1697-brightgreen)
 
 ## &#x1f4c8; GitHub Stats
 
