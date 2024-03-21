@@ -1,0 +1,43 @@
+{
+  "id": "ronaldonyango/global-suicide-rates-1990-to-2022",
+  "id_no": 4597596,
+  "datasetSlugNullable": "global-suicide-rates-1990-to-2022",
+  "ownerUserNullable": "ronaldonyango",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Suicide Rates & Socioeconomic Factors (1990 - 22)",
+  "subtitleNullable": "Suicides, Population, and Economic Indicators by Region and Country",
+  "descriptionNullable": "Ever wondered what factors might be behind the heartbreaking reality of suicide rates around the world? This dataset dives deep into the numbers, spanning over 30 years from 1990 to 2022, to help us understand the complex relationship between suicide and various elements of our lives.\n\n## **What's in it for you?**\n\n- **Suicide rates galore**: Not just raw counts, but percentages of total deaths and standardized rates that account for different population age structures.\n- **Demographics on deck**: Region, country, year, gender, age group - you name it, this dataset's got it covered.\n- **Economic insights**: GDP, income levels, inflation, employment rates - a treasure trove of socioeconomic indicators to explore their potential links to suicide rates.\n\n### Now, let's talk about those age-standardized rates for a sec:\n\n1. **Crude rate per 100,000 people**: The raw number of suicides, but it can be a bit misleading since some countries have more elderly folks \ud83d\udc74\ud83d\udc75 (who are generally more likely to pass away from any cause).\n2. **Age-standardized rate per 100,000**: This one's a real gem! It adjusts for age differences between populations, allowing for a fairer comparison of suicide rates across countries or over time. \n\nWith both types of rates at your fingertips, you'll be equipped to dive into global suicide trends with a nuanced understanding. \n\nThe data comes straight from the good folks at the World Health Organization (WHO) and the World Bank, so you know it's legit.\n\n## Data Sources\n\n\u2705 World Health Organization (WHO) Suicide Prevention: https://www.who.int/health-topics/suicide (Data on suicide rates and demographics) \n\n\u2705 World Bank Open Data: https://data.worldbank.org/ (Data on economic indicators like GDP, GNI, inflation, and employment) \n\n## Terms of Use \ud83d\udcc4\n\ud83c\udf10 WHO: https://data.who.int/about/data/data-policy\n\n\ud83c\udf0d World Bank Open Data: https://data.worldbank.org/summary-terms-of-use\n\n\ud83d\udd0e Explore the intricate interplay between societal, demographic, and economic variables with this rich dataset. \ud83e\udde9\u2696\ufe0f\n\n![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F11639428%2F7e9426f266704676003c439d9dc5f342%2Fsuicide_rates-ezgif.com-video-to-gif-converter.gif?generation=1710691281646303&alt=media)\n",
+  "datasetId": 4597596,
+  "datasetSlug": "global-suicide-rates-1990-to-2022",
+  "hasDatasetSlug": true,
+  "ownerUser": "ronaldonyango",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 8102,
+  "totalVotes": 23,
+  "totalDownloads": 1697,
+  "title": "Suicide Rates & Socioeconomic Factors (1990 - 22)",
+  "hasTitle": true,
+  "subtitle": "Suicides, Population, and Economic Indicators by Region and Country",
+  "hasSubtitle": true,
+  "description": "Ever wondered what factors might be behind the heartbreaking reality of suicide rates around the world? This dataset dives deep into the numbers, spanning over 30 years from 1990 to 2022, to help us understand the complex relationship between suicide and various elements of our lives.\n\n## **What's in it for you?**\n\n- **Suicide rates galore**: Not just raw counts, but percentages of total deaths and standardized rates that account for different population age structures.\n- **Demographics on deck**: Region, country, year, gender, age group - you name it, this dataset's got it covered.\n- **Economic insights**: GDP, income levels, inflation, employment rates - a treasure trove of socioeconomic indicators to explore their potential links to suicide rates.\n\n### Now, let's talk about those age-standardized rates for a sec:\n\n1. **Crude rate per 100,000 people**: The raw number of suicides, but it can be a bit misleading since some countries have more elderly folks \ud83d\udc74\ud83d\udc75 (who are generally more likely to pass away from any cause).\n2. **Age-standardized rate per 100,000**: This one's a real gem! It adjusts for age differences between populations, allowing for a fairer comparison of suicide rates across countries or over time. \n\nWith both types of rates at your fingertips, you'll be equipped to dive into global suicide trends with a nuanced understanding. \n\nThe data comes straight from the good folks at the World Health Organization (WHO) and the World Bank, so you know it's legit.\n\n## Data Sources\n\n\u2705 World Health Organization (WHO) Suicide Prevention: https://www.who.int/health-topics/suicide (Data on suicide rates and demographics) \n\n\u2705 World Bank Open Data: https://data.worldbank.org/ (Data on economic indicators like GDP, GNI, inflation, and employment) \n\n## Terms of Use \ud83d\udcc4\n\ud83c\udf10 WHO: https://data.who.int/about/data/data-policy\n\n\ud83c\udf0d World Bank Open Data: https://data.worldbank.org/summary-terms-of-use\n\n\ud83d\udd0e Explore the intricate interplay between societal, demographic, and economic variables with this rich dataset. \ud83e\udde9\u2696\ufe0f\n\n![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F11639428%2F7e9426f266704676003c439d9dc5f342%2Fsuicide_rates-ezgif.com-video-to-gif-converter.gif?generation=1710691281646303&alt=media)\n",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "mental health",
+    "social science",
+    "demographics",
+    "economics",
+    "mortality"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "other",
+      "name": "other",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
