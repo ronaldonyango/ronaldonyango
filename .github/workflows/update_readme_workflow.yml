@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Manually trigger workflow
+  workflow_dispatch:
 
 jobs:
   update_readme:
@@ -19,7 +19,17 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install kaggle
+        run: |
+          pip install kaggle
 
-      - name: Download metadata and update README
+      - name: Configure Kaggle
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: |
+          mkdir ~/.kaggle
+          echo "{\"username\":\"${KAGGLE_USERNAME}\",\"key\":\"${KAGGLE_KEY}\"}" > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
+      - name: Run Python script
         run: python update_readme.py
