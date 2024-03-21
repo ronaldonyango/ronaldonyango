@@ -20,7 +20,7 @@ jobs:
         id: read_metadata
         run: |
           totalViews=$(jq '.view_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
-          totalDownloads=$(jq '.download_count' ronaldonyango/global-suicide-rates-1990-to-2022/dataset_metadata.json)
+          totalDownloads=$(jq '.download_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
           echo "Total Views: $totalViews"
           echo "Total Downloads: $totalDownloads"
           echo "::set-output name=totalViews::$totalViews"
