@@ -4,8 +4,8 @@
 
 I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extracting insights from data, one line of code at a time, and I'm always eager for new challenges.
 
-[![Total Views](http://img.shields.io/badge/Total%20Views-<totalViews>-blue)](#)
-[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-<totalDownloads>-brightgreen)](#)
+[![Total Views](http://img.shields.io/badge/Total%20Views-0-blue)](#)(#)
+[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-0-brightgreen)](#)(#)
 
 ## 🛠️ Technologies & Tools
 
