@@ -102,8 +102,8 @@ I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extrac
 [![View More Projects](https://img.shields.io/badge/View%20More%20Projects-blue?style=for-the-badge)](https://www.datascienceportfol.io/ronaldonyango)
 
 ## Kaggle datasets 👩🏽‍💻
-![Total Views](http://img.shields.io/badge/Total%20Views-8103-blue)
-![Total Downloads](http://img.shields.io/badge/Total%20Downloads-1697-brightgreen)
+![Total Views](http://img.shields.io/badge/Total%20Views-8093-blue)
+![Total Downloads](http://img.shields.io/badge/Total%20Downloads-1694-brightgreen)
 
 ## &#x1f4c8; GitHub Stats
 
