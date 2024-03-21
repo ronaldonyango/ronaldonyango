@@ -3,33 +3,42 @@ name: Update README
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - master
+  workflow_dispatch:  # Enable manual triggering
 
 jobs:
   update_readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Read file contents
+        run: |
+          file_contents=$(cat ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          totalViews=$(echo $file_contents | jq -r '.totalViews')
+          totalDownloads=$(echo $file_contents | jq -r '.totalDownloads')
+          echo "Total Views: $totalViews"
+          echo "Total Downloads: $totalDownloads"
+          echo "::set-output name=totalViews::$totalViews"
+          echo "::set-output name=totalDownloads::$totalDownloads"
+
+      - name: Update README
+        uses: actions/github-script@v4
         with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          pip install kaggle
-
-      - name: Configure Kaggle
-        env:
-          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
-        run: |
-          mkdir ~/.kaggle
-          echo "{\"username\":\"${KAGGLE_USERNAME}\",\"key\":\"${KAGGLE_KEY}\"}" > ~/.kaggle/kaggle.json
-          chmod 600 ~/.kaggle/kaggle.json
-
-      - name: Run Python script
-        run: python update_readme.py
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            let totalViews = ${{ steps.read_file.outputs.totalViews }};
+            let totalDownloads = ${{ steps.read_file.outputs.totalDownloads }};
+            let updatedReadme = readme.replace(
+              /\[!\[Total Views\]\(http:\/\/img\.shields\.io\/badge\/Total%20Views-[0-9]+-blue\)\]\(#\)/,
+              `[![Total Views](http://img.shields.io/badge/Total%20Views-${totalViews}-blue)](#)`,
+            ).replace(
+              /\[!\[Total Downloads\]\(http:\/\/img\.shields\.io\/badge\/Total%20Downloads-[0-9]+-brightgreen\)\]\(#\)/,
+              `[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-${totalDownloads}-brightgreen)](#)`,
+            );
+            fs.writeFileSync('README.md', updatedReadme);
+          
