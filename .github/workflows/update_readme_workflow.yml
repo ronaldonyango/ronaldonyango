@@ -14,22 +14,25 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install jq
-        run: sudo apt-get install -y jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Read metadata
-        id: read_metadata
+      - name: Read metadata and update README
+        id: update_readme
         run: |
           totalViews=$(jq '.view_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
           totalDownloads=$(jq '.download_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
           echo "Total Views: $totalViews"
           echo "Total Downloads: $totalDownloads"
-          echo "::set-output name=totalViews::$totalViews"
-          echo "::set-output name=totalDownloads::$totalDownloads"
-
-      - name: Update README
-        run: |
-          sed -i "s/\[\!\[Total Views\]\(http:\/\/img\.shields\.io\/badge\/Total%20Views-[0-9]\+-blue\)\]/\[\!\[Total Views\]\(http:\/\/img\.shields\.io\/badge\/Total%20Views-${{ steps.read_metadata.outputs.totalViews }}-blue\)\]/" README.md
-          sed -i "s/\[\!\[Total Downloads\]\(http:\/\/img\.shields\.io\/badge\/Total%20Downloads-[0-9]\+-brightgreen\)\]/\[\!\[Total Downloads\]\(http:\/\/img\.shields\.io\/badge\/Total%20Downloads-${{ steps.read_metadata.outputs.totalDownloads }}-brightgreen\)\]/" README.md
+          
+          # Generate badge URLs
+          views_badge="[![Total Views](http://img.shields.io/badge/Total%20Views-${totalViews}-blue)](#)"
+          downloads_badge="[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-${totalDownloads}-brightgreen)](#)"
+          
+          # Replace badges in README using jq
+          jq --arg views "$views_badge" --arg downloads "$downloads_badge" \
+            '. |= gsub("\\[\\!\\[Total Views\\]\\(http://img\\.shields\\.io\\/badge\\/Total%20Views-[0-9]+-blue\\)\\]"; $views)
+             | gsub("\\[\\!\\[Total Downloads\\]\\(http://img\\.shields\\.io\\/badge\\/Total%20Downloads-[0-9]+-brightgreen\\)\\]"; $downloads)' \
+            README.md > README.tmp && mv README.tmp README.md
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
