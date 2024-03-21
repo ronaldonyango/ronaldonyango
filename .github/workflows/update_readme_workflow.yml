@@ -14,25 +14,31 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+        run: sudo apt-get install -y jq
 
-      - name: Read metadata and update README
-        id: update_readme
+      - name: Read metadata
+        id: read_metadata
         run: |
-          totalViews=$(jq '.view_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
-          totalDownloads=$(jq '.download_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          metadata=$(< ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          totalViews=$(echo "$metadata" | jq -r '.totalViews')
+          totalDownloads=$(echo "$metadata" | jq -r '.totalDownloads')
           echo "Total Views: $totalViews"
           echo "Total Downloads: $totalDownloads"
-          
-          # Generate badge URLs
-          views_badge="[![Total Views](http://img.shields.io/badge/Total%20Views-${totalViews}-blue)](#)"
-          downloads_badge="[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-${totalDownloads}-brightgreen)](#)"
-          
-          # Replace badges in README using jq
-          jq --arg views "$views_badge" --arg downloads "$downloads_badge" \
-            '. |= gsub("\\[\\!\\[Total Views\\]\\(http://img\\.shields\\.io\\/badge\\/Total%20Views-[0-9]+-blue\\)\\]"; $views)
-             | gsub("\\[\\!\\[Total Downloads\\]\\(http://img\\.shields\\.io\\/badge\\/Total%20Downloads-[0-9]+-brightgreen\\)\\]"; $downloads)' \
-            README.md > README.tmp && mv README.tmp README.md
+          echo "::set-output name=totalViews::$totalViews"
+          echo "::set-output name=totalDownloads::$totalDownloads"
+
+      - name: Generate badges
+        id: generate_badges
+        run: |
+          totalViewsBadge="[![Total Views](http://img.shields.io/badge/Total%20Views-$((totalViews))-blue)](#)"
+          totalDownloadsBadge="[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-$((totalDownloads))-brightgreen)](#)"
+          echo "::set-output name=totalViewsBadge::$totalViewsBadge"
+          echo "::set-output name=totalDownloadsBadge::$totalDownloadsBadge"
+
+      - name: Update README
+        run: |
+          sed -i "s|\[!\[Total Views\]\(.*\)\]|${{ steps.generate_badges.outputs.totalViewsBadge }}|" README.md
+          sed -i "s|\[!\[Total Downloads\]\(.*\)\]|${{ steps.generate_badges.outputs.totalDownloadsBadge }}|" README.md
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
