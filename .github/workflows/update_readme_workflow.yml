@@ -13,23 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install Kaggle CLI
-        run: |
-          pip install kaggle
-          kaggle --install-opendataset-cli
-
       - name: Install jq
         run: sudo apt-get install -y jq
-
-      - name: Download dataset metadata
-        run: |
-          kaggle datasets metadata -n ronaldonyango/global-suicide-rates-1990-to-2022 > dataset_metadata.json
 
       - name: Read metadata
         id: read_metadata
         run: |
-          totalViews=$(jq '.view_count' dataset_metadata.json)
-          totalDownloads=$(jq '.download_count' dataset_metadata.json)
+          totalViews=$(jq '.view_count' ronaldonyango/global-suicide-rates-1990-to-2022.json)
+          totalDownloads=$(jq '.download_count' ronaldonyango/global-suicide-rates-1990-to-2022/dataset_metadata.json)
           echo "Total Views: $totalViews"
           echo "Total Downloads: $totalDownloads"
           echo "::set-output name=totalViews::$totalViews"
