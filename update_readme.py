@@ -3,15 +3,8 @@ import subprocess
 import json
 
 def download_dataset_metadata(username, dataset_name):
-    kaggle_dir = os.path.join(os.path.expanduser('~'), '.kaggle')
-    if not os.path.exists(kaggle_dir):
-        os.makedirs(kaggle_dir)
-
-    kaggle_json_path = os.path.join(kaggle_dir, 'kaggle.json')
-
-    if not os.path.exists(kaggle_json_path):
-        print("Error: kaggle.json file not found in .kaggle directory.")
-        return
+    # Remove the kaggle.json path setup since we'll use Kaggle secrets instead
+    # No need to check if kaggle.json exists
 
     # Download dataset metadata using Kaggle API
     command = f'kaggle datasets metadata {username}/{dataset_name}'
@@ -44,6 +37,7 @@ if __name__ == "__main__":
     username = 'ronaldonyango'
     dataset_name = 'global-suicide-rates-1990-to-2022'
     
-    download_dataset_metadata(username, dataset_name)
+    # No need to call download_dataset_metadata here, as we'll use Kaggle secrets instead
+    
     views, downloads = extract_metadata()
     update_readme(views, downloads)
