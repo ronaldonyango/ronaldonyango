@@ -31,8 +31,8 @@ jobs:
           script: |
             const fs = require('fs');
             let readme = fs.readFileSync('README.md', 'utf8');
-            let totalViews = ${{ steps.read_file.outputs.totalViews }};
-            let totalDownloads = ${{ steps.read_file.outputs.totalDownloads }};
+            let totalViews = ;
+            let totalDownloads = ;
             let updatedReadme = readme.replace(
               /\[!\[Total Views\]\(http:\/\/img\.shields\.io\/badge\/Total%20Views-[0-9]+-blue\)\]\(#\)/,
               `[![Total Views](http://img.shields.io/badge/Total%20Views-${totalViews}-blue)](#)`,
@@ -41,4 +41,5 @@ jobs:
               `[![Total Downloads](http://img.shields.io/badge/Total%20Downloads-${totalDownloads}-brightgreen)](#)`,
             );
             fs.writeFileSync('README.md', updatedReadme);
+
           
