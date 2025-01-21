@@ -4,6 +4,8 @@
 
 I'm a passionate Data Enthusiast with a focus on Data Engineering. I love extracting insights from data, one line of code at a time, and I'm always eager for new challenges.
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red)
+
 ## 🛠️ Technologies & Tools
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
