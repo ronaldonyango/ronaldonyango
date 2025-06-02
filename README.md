@@ -7,7 +7,7 @@
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ronaldonyango/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ronaldoyw@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ronaldonyango.ke@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/ronaldonyango)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ronaldonyango)
 
@@ -15,11 +15,11 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 <div align="center">
 
-**Data Engineering Enthusiast** from **Nairobi, Kenya** 🇰🇪
+**Data Engineering Enthusiast**
 
 *"Extracting insights from data, one line of code at a time"*
 
@@ -27,15 +27,15 @@
 
 </div>
 
-### 💼 What I Do
-- 🔍 **Data Engineering** - Building robust data pipelines and architectures
-- 📊 **Data Analysis** - Turning raw data into actionable insights  
-- 🛠️ **Process Automation** - Streamlining workflows with smart tools
-- 📈 **Visualization** - Creating compelling data stories
+### What I Do
+- **Data Engineering** - Building robust data pipelines and architectures
+- **Data Analysis** - Turning raw data into actionable insights  
+- **Process Automation** - Streamlining workflows with smart tools
+- **Visualization** - Creating compelling data stories
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -69,7 +69,7 @@
 
 ---
 
-## 📊 Featured Projects
+## Featured Projects
 
 <table>
 <tr>
@@ -110,7 +110,7 @@
 
 ---
 
-## 📝 Latest Blog Posts
+## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 - 📊 [Mapping Suicide Rates Worldwide: Analyzing 30 Years of Socioeconomic Factors](https://medium.com/@ronaldonyango/mapping-suicide-rates-worldwide-analyzing-30-years-of-socioeconomic-factors-c485fcc16407?source=rss-b646665c09cd------2)
