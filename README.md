@@ -1,121 +1,210 @@
-# 👋 Hey there! I'm Ronald Onyango 
+# 👨‍💻 Ronald Onyango - Data Whisperer & Pipeline Poet
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&height=70&lines=Data+Pipeline+Architect;Turning+Raw+Data+Into+Insights;Automation+Enthusiast;Always+Learning%2C+Always+Growing" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&height=70&lines=Professional+Data+Wrangler;SQL+Jedi+Master;Pipeline+Architect;Recovering+Excel+Addict" alt="Typing animation" />
 </div>
 
 <div align="center" style="margin: 20px 0">
   <a href="https://www.linkedin.com/in/ronaldonyango/">
-    <img src="https://img.shields.io/badge/-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/-Stalk_my_career-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:ronaldonyango.ke@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/-Slide_into_my_DMs-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://www.kaggle.com/ronaldonyango">
-    <img src="https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=Kaggle&logoColor=white" alt="Kaggle">
+    <img src="https://img.shields.io/badge/-Watch_me_Kaggle-20BEFF?style=flat&logo=Kaggle&logoColor=white" alt="Kaggle">
   </a>
   <a href="https://medium.com/@ronaldonyango">
-    <img src="https://img.shields.io/badge/-Blog-12100E?style=flat&logo=medium&logoColor=white" alt="Medium">
+    <img src="https://img.shields.io/badge/-Read_my_ramblings-12100E?style=flat&logo=medium&logoColor=white" alt="Medium">
   </a>
 </div>
 
 ---
 
-## 🚀 About Me
+## 🎭 About Me - The Human Edition
 
-> **"Transforming messy data into clean insights, one pipeline at a time"**
+> **"I speak fluent SQL, broken Python, and occasional coherent sentences"**
 
-I'm a data engineering enthusiast who geeks out over:
-- Building bulletproof data pipelines ⚙️
-- Finding stories hidden in datasets 🔍
-- Automating all the things 🤖
-- Creating killer visualizations 📊
+Hey! I'm Ronald - part data plumber, part insight magician, and full-time chaos organizer. By day I fight dirty data dragons, by night I write Medium posts no one reads 😅. 
 
-Currently leveling up my skills in cloud data architecture and always down for coffee chats about data!
+**My superpowers:**
+- Transforming "Where's the report?" panic into beautiful dashboards
+- Automating tasks so humans can do more human things (like drink coffee)
+- Spotting data patterns like Where's Waldo champion
+- Explaining technical jargon to managers without causing existential dread
 
----
+**Current life status:** 
+```python
+while coffee_level > 0:
+    code()
+    debug()
+    complain_about_legacy_systems()
+else:
+    more_coffee = True
+```
 
-## 🛠️ Tech Stack
-
-### **Data Core**
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?logo=r&logoColor=white)
-
-### **Data Engineering**
-![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white)
-![Airflow](https://img.shields.io/badge/-Airflow-017CEE?logo=apacheairflow&logoColor=white)
-![Spark](https://img.shields.io/badge/-Spark-E25A1C?logo=apachespark&logoColor=white)
-
-### **Visualization**
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?logo=tableau&logoColor=white)
-![PowerBI](https://img.shields.io/badge/-Power_BI-F2C811?logo=powerbi&logoColor=black)
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?logo=plotly&logoColor=white)
-
-### **Cloud & Databases**
-![Google Cloud](https://img.shields.io/badge/-GCP-4285F4?logo=googlecloud&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![BigQuery](https://img.shields.io/badge/-BigQuery-4285F4?logo=googlecloud&logoColor=white)
-
-### **Tools**
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?logo=jupyter&logoColor=white)
+**Product philosophy:**
+> "If users aren't complaining about your first prototype, you waited too long to ship"
 
 ---
 
-## 🔥 Featured Projects
+## 🛠️ Tech Stack (My Digital Toolbelt)
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[🧠 Suicide Prevention Analysis](https://github.com/ronaldonyango/suicide-rates-eda)** | Uncovered mental health trends across 30+ countries | `Python` `Pandas` `Matplotlib` |
-| **[🔄 Data Export Automation](https://github.com/ronaldonyango/data-export-tool)** | Built CLI tool for scheduled database exports | `Python` `SQL` `Automation` |
-| **[🌐 Web Analytics Pipeline](https://github.com/ronaldonyango)** | ETL pipeline for website traffic analysis | `Airflow` `BigQuery` `dbt` |
+### Daily drivers
+<p>
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/-Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white" alt="Airflow">
+</p>
+
+### Data taming tools
+<p>
+  <img src="https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/-Spark-E25A1C?style=flat&logo=apachespark&logoColor=white" alt="Spark">
+  <img src="https://img.shields.io/badge/-dbt-FF694B?style=flat&logo=dbt&logoColor=white" alt="dbt">
+</p>
+
+### Making pretty pictures
+<p>
+  <img src="https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau">
+  <img src="https://img.shields.io/badge/-PowerBI-F2C811?style=flat&logo=powerbi&logoColor=black" alt="PowerBI">
+  <img src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" alt="Plotly">
+</p>
+
+### Cloud stuff I'm figuring out
+<p>
+  <img src="https://img.shields.io/badge/-GCP-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="GCP">
+  <img src="https://img.shields.io/badge/-BigQuery-4385F4?style=flat&logo=googlecloud&logoColor=white" alt="BigQuery">
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+</p>
+
+### Things I Google daily
+<p>
+  <img src="https://img.shields.io/badge/-K8s-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white" alt="Terraform">
+</p>
+
+---
+
+## 🚀 Projects That Didn't Completely Explode
+
+| Project | What I Built | What Actually Happened |
+|---------|-------------|------------------------|
+| 🧠 **Suicide Prevention Analysis** | Beautiful socioeconomic insights | Discovered my CSV was 0.0001% corrupted 😱 |
+| 🔄 **Data Export Tool** | Elegant CLI automation | Became team's favorite "magic button" ✨ |
+| 🌐 **Web Analytics Pipeline** | Real-time dashboard paradise | Learned why "eventual consistency" exists ☕ |
 
 <div align="center" style="margin-top:20px">
   <a href="https://www.datascienceportfol.io/ronaldonyango">
-    <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-00D4FF?style=for-the-badge&logo=github&logoColor=white" alt="View all projects">
+    <img src="https://img.shields.io/badge/MORE_PROJECTS-00D4FF?style=for-the-badge&logo=github&logoColor=white" alt="Projects">
   </a>
 </div>
 
 ---
 
-## ✍️ Latest Blog Posts
+## 📝 Blogging (My Therapy Sessions)
+
 <!-- BLOG-POST-LIST:START -->
-- [Mapping Suicide Rates Worldwide: Analyzing 30 Years of Socioeconomic Factors](https://medium.com/@ronaldonyango/mapping-suicide-rates-worldwide-analyzing-30-years-of-socioeconomic-factors-c485fcc16407?source=rss-b646665c09cd------2)
-- [Global suicide rates analysis](https://medium.com/@ronaldonyango/global-suicide-rates-analysis-4480af7754fd?source=rss-b646665c09cd------2)
-- [How I would learn SQL if I started again](https://medium.com/@ronaldonyango/how-i-would-learn-sql-if-i-started-again-15a45aafeff5?source=rss-b646665c09cd------2)
-- [How I became a Data Analyst in just 3 months](https://medium.com/@ronaldonyango/mastering-sql-tools-and-data-engineering-a-self-taught-analysts-journey-6cd36e49c8ed?source=rss-b646665c09cd------2)
+- 📖 [How I Became a "Data Person" Without Meaning To](https://medium.com/@ronaldonyango)
+- 💭 [Confessions of a Recovering Perfectionist: Just Ship It!](https://medium.com/@ronaldonyango)
+- 💔 [Why Your Dashboard Sucks: A Love Letter to Stakeholders](https://medium.com/@ronaldonyango)
+- 🗣️ [SQL: The Language I Love to Hate (and Hate to Love)](https://medium.com/@ronaldonyango)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
   <a href="https://medium.com/@ronaldonyango">
-    <img src="https://img.shields.io/badge/READ_MORE_ON_MEDIUM-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
+    <img src="https://img.shields.io/badge/READ_MY_THERAPY_NOTES-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
   </a>
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📈 GitHub Reality Check
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&include_all_commits=true&count_private=true">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ronaldonyango&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00D4FF&text_color=FFFFFF">
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ronaldonyango&theme=dark&hide_border=true&background=0d1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF">
+### Time spent coding reality
+```mermaid
+%%{init: {'pie': {'textPosition': 0.5}, 'themeVariables': {'pieOuterStrokeWidth': '5px'}} }%%
+pie showData
+    title Time Spent Coding
+    "Actual coding" : 15
+    "Debugging" : 35
+    "Googling errors" : 40
+    "Pretending to work" : 10
+```
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&include_all_commits=true&count_private=true">
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ronaldonyango&theme=dark&hide_border=true&background=0d1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF">
+
 </div>
 
 ---
 
-## 🎯 Current Focus
+## 🧠 Product Manager brain vs Developer brain
 
+### The Eternal Struggle - A Data Visualization
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor': '#00D4FF', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#00D4FF', 'lineColor': '#ffffff', 'secondaryColor': '#FF6B35', 'tertiaryColor': '#1a1a1a'}}}%%
+journey
+    title Feature Development Emotional Rollercoaster
+    section PM Requests
+      "We need this yesterday!" : 1: PM, Dev
+      "It's just a small change" : 1: PM
+      "Users will LOVE this!" : 3: PM
+      "Can't we just..." : 1: PM, Dev
+    section Dev Reality Check  
+      "That's not how it works" : 2: Dev
+      "Technical debt alert!" : 1: Dev
+      "Let me check Stack Overflow" : 3: Dev
+      "Fine, but I'm documenting this" : 4: Dev
+    section Acceptance Phase
+      "It works... somehow" : 5: PM, Dev
+      "Let's never speak of this" : 4: PM, Dev
+```
+
+### My communication patterns
 ```mermaid
 graph TD
-    A[Cloud Data Engineering] --> B[GCP Data Solutions]
-    A --> C[Stream Processing]
-    A --> D[Data Orchestration]
-    B --> E[BigQuery Optimization]
-    C --> F[Real-time Pipelines]
-    D --> G[Airflow Monitoring]
+    A["PM: Simple Feature Request"] --> B{"Is it actually simple?"}
+    B -->|Yes| C["Dev: Sure, 2 hours"]
+    B -->|No| D["Dev: That's 2 weeks minimum"]
+    D --> E["PM: But competitor does it"]
+    E --> F["Dev: Their system is different"]
+    F --> G["PM: Can't we just copy them?"]
+    G --> H["Dev: Internal Screaming"]
+    H --> I["Compromise: Let's scope this properly"]
+    C --> J["Feature creep enters chat"]
+    J --> D
+    
+    style A fill:#FF6B35
+    style D fill:#00D4FF
+    style H fill:#ff4444
+    style I fill:#44ff44
+```
+
+---
+
+<div align="center">
+
+## ☕ Let's create something awful together!
+
+<a href="https://www.linkedin.com/in/ronaldonyango/">
+  <img src="https://img.shields.io/badge/DM_me_for-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+**Perfect if you:**
+- Have data problems that keep you up at night
+- Want to debate tabs vs spaces (tabs obviously)
+- Need someone to laugh at your database schema  
+- Just want to vent about stakeholder requests
+
+---
+
+<img src="https://komarev.com/ghpvc/?username=ronaldonyango&color=00D4FF&style=flat-square" alt="Profile views">
+
+<p><i>"I don't always test my code, but when I do, I do it in production"</i> 🫣</p>
+
+<p>Made with ❤️, ☕, and probably too many pandas references</p>
+
+</div>
