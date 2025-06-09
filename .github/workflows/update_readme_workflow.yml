@@ -1,38 +1,71 @@
-name: Update README
+name: Update Kaggle Stats in README
 
 on:
-  push:
-    branches:
-      - master
-  workflow_dispatch: # Enable manual triggering
+  schedule:
+    # Runs daily at 7am UTC
+    - cron: '0 7 * * *'
+  workflow_dispatch:
 
 jobs:
-  update_readme:
+  update_kaggle_stats:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install jq
-        run: sudo apt-get install -y jq
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-      - name: Read metadata
-        id: read_metadata
+      - name: Install dependencies
         run: |
-          metadata=$(jq . ronaldonyango/global-suicide-rates-1990-to-2022.json)
-          totalViews=$(echo "$metadata" | jq '.totalViews')
-          totalDownloads=$(echo "$metadata" | jq '.totalDownloads')
-          echo "Total Views: $totalViews"
-          echo "Total Downloads: $totalDownloads"
-          echo "::set-output name=totalViews::$totalViews"
-          echo "::set-output name=totalDownloads::$totalDownloads"
+          python -m pip install --upgrade pip
+          pip install requests pandas jq
+          sudo apt-get install -y jq
 
-      - name: Update README
+      - name: Get Kaggle dataset stats
+        id: dataset_stats
         run: |
-          sed -i "s/\[!\[Total Views\](http:\/\/img\.shields\.io\/badge\/Total%20Views-[0-9]+-blue)\]/[![Total Views](http:\/\/img\.shields\.io\/badge\/Total%20Views-${{ steps.read_metadata.outputs.totalViews }}-blue)](#)/" README.md
-          sed -i "s/\[!\[Total Downloads\](http:\/\/img\.shields\.io\/badge\/Total%20Downloads-[0-9]+-brightgreen)\]/[![Total Downloads](http:\/\/img\.shields\.io\/badge\/Total%20Downloads-${{ steps.read_metadata.outputs.totalDownloads }}-brightgreen)](#)/" README.md
+          # Define your datasets (add more as needed)
+          datasets=(
+            "ronaldonyango/global-suicide-rates-1990-to-2022"
+            # Add other dataset slugs here
+          )
+
+          stats=()
+          for dataset in "${datasets[@]}"; do
+            echo "Processing dataset: $dataset"
+            
+            # Get dataset metadata from Kaggle API
+            response=$(curl -s "https://www.kaggle.com/api/v1/datasets/view/$dataset")
+            
+            # Extract stats
+            views=$(echo "$response" | jq '.totalViews')
+            downloads=$(echo "$response" | jq '.totalDownloads')
+            name=$(echo "$response" | jq -r '.title' | tr -d '[:punct:]' | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
+            
+            stats+=("$name-views=$views")
+            stats+=("$name-downloads=$downloads")
+            
+            echo "$dataset - Views: $views, Downloads: $downloads"
+          done
+
+          # Create output string
+          output=$(printf "%s\n" "${stats[@]}")
+          echo "$output" >> $GITHUB_OUTPUT
+
+      - name: Update README with stats
+        run: |
+          # Update each dataset's stats in README
+          # Example for suicide rates dataset
+          sed -i "s/\[!\[Suicide Dataset Views\](https:\/\/img\.shields\.io\/badge\/Views-[0-9]+-blue)\]/[![Suicide Dataset Views](https:\/\/img.shields.io\/badge\/Views-${{ fromJSON(steps.dataset_stats.outputs.stats)['global-suicide-rates-1990-to-2022-views'] }-blue)]/" README.md
+          sed -i "s/\[!\[Suicide Dataset Downloads\](https:\/\/img\.shields\.io\/badge\/Downloads-[0-9]+-brightgreen)\]/[![Suicide Dataset Downloads](https:\/\/img.shields.io\/badge\/Downloads-${{ fromJSON(steps.dataset_stats.outputs.stats)['global-suicide-rates-1990-to-2022-downloads'] }-brightgreen)]/" README.md
+
+          # Add similar blocks for other datasets
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update README with latest dataset stats
+          commit_message: "Update Kaggle dataset stats [skip ci]"
+          branch: master
