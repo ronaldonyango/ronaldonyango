@@ -120,6 +120,13 @@ else:
 
 ---
 
+## 📊 Kaggle Dataset Stats
+
+[![Suicide Dataset Views](https://img.shields.io/badge/Views-12345-blue)]()
+[![Suicide Dataset Downloads](https://img.shields.io/badge/Downloads-6789-brightgreen)]()
+
+---
+
 ## 📈 GitHub Reality Check
 
 <div align="center">
