@@ -164,26 +164,6 @@ journey
       "Let's never speak of this" : 4: PM, Dev
 ```
 
-### My communication patterns
-```mermaid
-graph TD
-    A["PM: Simple Feature Request"] --> B{"Is it actually simple?"}
-    B -->|Yes| C["Dev: Sure, 2 hours"]
-    B -->|No| D["Dev: That's 2 weeks minimum"]
-    D --> E["PM: But competitor does it"]
-    E --> F["Dev: Their system is different"]
-    F --> G["PM: Can't we just copy them?"]
-    G --> H["Dev: Internal Screaming"]
-    H --> I["Compromise: Let's scope this properly"]
-    C --> J["Feature creep enters chat"]
-    J --> D
-    
-    style A fill:#FF6B35
-    style D fill:#00D4FF
-    style H fill:#ff4444
-    style I fill:#44ff44
-```
-
 ---
 
 <div align="center">
