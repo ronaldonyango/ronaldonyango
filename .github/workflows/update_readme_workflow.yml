@@ -2,13 +2,20 @@ name: Update Kaggle Stats in README
 
 on:
   schedule:
-    # Runs daily at 7am UTC
-    - cron: '0 7 * * *'
+    # Runs every 6 hours (at 15 minutes past the hour)
+    - cron: '15 */6 * * *'
   workflow_dispatch:
+
+env:
+  KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+  PYTHON_VERSION: '3.10'
+  PYTHON_CACHE_VERSION: '1'
 
 jobs:
   update_kaggle_stats:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -16,56 +23,43 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: '**/requirements.txt'
+
+      - name: Cache Python dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ env.PYTHON_CACHE_VERSION }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-${{ env.PYTHON_CACHE_VERSION }}-
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas jq
-          sudo apt-get install -y jq
+          pip install -r requirements.txt
 
       - name: Get Kaggle dataset stats
         id: dataset_stats
-        run: |
-          # Define your datasets (add more as needed)
-          datasets=(
-            "ronaldonyango/global-suicide-rates-1990-to-2022"
-            # Add other dataset slugs here
-          )
+        run: python scripts/update_kaggle_stats.py
+        env:
+          GITHUB_OUTPUT: ${{ github.outputs }}
 
-          stats=()
-          for dataset in "${datasets[@]}"; do
-            echo "Processing dataset: $dataset"
-            
-            # Get dataset metadata from Kaggle API
-            response=$(curl -s "https://www.kaggle.com/api/v1/datasets/view/$dataset")
-            
-            # Extract stats
-            views=$(echo "$response" | jq '.totalViews')
-            downloads=$(echo "$response" | jq '.totalDownloads')
-            name=$(echo "$response" | jq -r '.title' | tr -d '[:punct:]' | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
-            
-            stats+=("$name-views=$views")
-            stats+=("$name-downloads=$downloads")
-            
-            echo "$dataset - Views: $views, Downloads: $downloads"
-          done
-
-          # Create output string
-          output=$(printf "%s\n" "${stats[@]}")
-          echo "$output" >> $GITHUB_OUTPUT
-
-      - name: Update README with stats
-        run: |
-          # Update each dataset's stats in README
-          # Example for suicide rates dataset
-          sed -i "s/\[!\[Suicide Dataset Views\](https:\/\/img\.shields\.io\/badge\/Views-[0-9]+-blue)\]/[![Suicide Dataset Views](https:\/\/img.shields.io\/badge\/Views-${{ fromJSON(steps.dataset_stats.outputs.stats)['global-suicide-rates-1990-to-2022-views'] }-blue)]/" README.md
-          sed -i "s/\[!\[Suicide Dataset Downloads\](https:\/\/img\.shields\.io\/badge\/Downloads-[0-9]+-brightgreen)\]/[![Suicide Dataset Downloads](https:\/\/img.shields.io\/badge\/Downloads-${{ fromJSON(steps.dataset_stats.outputs.stats)['global-suicide-rates-1990-to-2022-downloads'] }-brightgreen)]/" README.md
-
-          # Add similar blocks for other datasets
+      - name: Update README
+        run: python scripts/update_readme.py
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update Kaggle dataset stats [skip ci]"
+          commit_message: "📊 Updated Kaggle dataset stats [skip ci]"
           branch: master
+
+      - name: Send notification
+        if: always()
+        uses: actions-ecosystem/action-slack@v2
+        with:
+          status: ${{ job.status }}
+          steps: ${{ toJson(steps) }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
