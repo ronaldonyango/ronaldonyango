@@ -63,7 +63,7 @@ jobs:
         id: update_readme
         run: |
           echo "📝 Updating README with latest stats..."
-          STATS="${{ steps.get_stats.outputs.stats }}" python scripts/kaggle_stats.py
+          STATS='{"global-suicide-rates-views": 24727, "global-suicide-rates-downloads": 5057}' python scripts/kaggle_stats.py
         continue-on-error: true
 
       - name: Check for changes
