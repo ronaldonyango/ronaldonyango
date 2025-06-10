@@ -36,7 +36,7 @@ def get_kaggle_stats():
     
     # Write outputs for GitHub Actions
     with open(os.getenv('GITHUB_OUTPUT'), 'a') as f:
-        print(json.dumps(stats))
+        print(f{'stats': json.dumps(stats)}, file=f)
 
 if __name__ == "__main__":
     get_kaggle_stats()
