@@ -33,6 +33,9 @@ class KaggleStatsFetcher:
     
     def setup_authentication(self) -> bool:
         """Setup authentication headers for Kaggle API."""
+
+        username = os.getenv('KAGGLE_USERNAME')
+        key = os.getenv('KAGGLE_KEY')
         
         if not username or not key:
             print(" Missing KAGGLE_USERNAME or KAGGLE_KEY environment variables")
