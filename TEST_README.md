@@ -120,10 +120,13 @@ else:
 
 ---
 
-## 📊 Kaggle Dataset Stats
+## 📊 Kaggle Dataset Performance
 
-[![Suicide Dataset Views](https://img.shields.io/badge/Views-12345-blue)]()
-[![Suicide Dataset Downloads](https://img.shields.io/badge/Downloads-6789-brightgreen)]()
+### Global Suicide Rates (1990-2022)
+[![global-suicide-rates Views](https://img.shields.io/badge/Views-0-blue)]()
+[![global-suicide-rates Downloads](https://img.shields.io/badge/Downloads-0-brightgreen)]()
+
+<!-- Add more datasets following the same pattern -->
 
 ---
 

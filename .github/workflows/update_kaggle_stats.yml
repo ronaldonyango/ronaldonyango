@@ -9,7 +9,6 @@ on:
 env:
   KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
   PYTHON_VERSION: '3.10'
-  PYTHON_CACHE_VERSION: '3.10'
 
 jobs:
   update_kaggle_stats:
@@ -18,22 +17,16 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
-          cache-dependency-path: '**/requirements.txt'
-
-      - name: Cache Python dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ env.PYTHON_CACHE_VERSION }}-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-${{ env.PYTHON_CACHE_VERSION }}-
+          cache-dependency-path: 'requirements.txt'
 
       - name: Install dependencies
         run: |
@@ -43,16 +36,25 @@ jobs:
       - name: Get Kaggle dataset stats
         id: dataset_stats
         run: python scripts/update_kaggle_stats.py
-        env:
-          GITHUB_OUTPUT: ${{ github.outputs }}
 
       - name: Update README
         run: python scripts/update_readme.py
         env:
-          STATS: ${{ env.STATS}}
+          STATS: ${{ steps.dataset_stats.outputs.stats }}
 
-      - name: Commit changes
+      - name: Check for changes
+        id: verify_diff
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify_diff.outputs.changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "📊 Updated Kaggle dataset stats [skip ci]"
-          branch: master
+          branch: ${{ github.ref_name }}
+          file_pattern: README.md
