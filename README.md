@@ -21,7 +21,7 @@
 
 ---
 
-## 🎭 About Me - The Human Edition
+## 🎭 About Me - The human edition
 
 > **"I speak fluent SQL, broken Python, and occasional coherent sentences"**
 
@@ -48,7 +48,7 @@ else:
 
 ---
 
-## 🛠️ Tech Stack (My Digital Toolbelt)
+## Tech Stack (My Digital Toolbelt)
 
 ### Daily drivers
 <p>
@@ -80,15 +80,15 @@ else:
 
 ### Things I Google daily
 <p>
-  <img src="https://img.shields.io/badge/-K8s-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white" alt="Terraform">
+  <img src="https://img.shields.io/badge/-Postgres-326CE5?style=flat&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/-Python-623CE4?style=flat&logo=python&logoColor=white" alt="Python">
 </p>
 
 ---
 
-## 🚀 Projects That Didn't Completely Explode
+## Projects That Didn't Completely Explode
 
-| Project | What I Built | What Actually Happened |
+| Project | What I built | What actually happened |
 |---------|-------------|------------------------|
 | 🧠 **Suicide Prevention Analysis** | Beautiful socioeconomic insights | Discovered my CSV was 0.0001% corrupted 😱 |
 | 🔄 **Data Export Tool** | Elegant CLI automation | Became team's favorite "magic button" ✨ |
@@ -102,7 +102,7 @@ else:
 
 ---
 
-## 📝 Blogging (My Therapy Sessions)
+## Blogging (My therapy sessions)
 
 <!-- BLOG-POST-LIST:START -->
 - [SQLThe Language I Love to Hate &lpar;and Hate to Love&rpar;](https://medium.com/@ronaldonyango/sqlthe-language-i-love-to-hate-and-hate-to-love-69f84f435312?source=rss-b646665c09cd------2)
@@ -120,17 +120,15 @@ else:
 
 ---
 
-## 📊 Kaggle Dataset Performance
+## Kaggle Datasets
 
 ### Global Suicide Rates (1990-2022)
 [![global-suicide-rates Views](https://img.shields.io/badge/Views-{{ global-suicide-rates-views }}-blue)]()
 [![global-suicide-rates Downloads](https://img.shields.io/badge/Downloads-{{ global-suicide-rates-downloads }}-brightgreen)]()
 
-<!-- Add more datasets following the same pattern -->
-
 ---
 
-## 📈 GitHub Reality Check
+## GitHub Reality Check
 
 <div align="center">
 
@@ -149,30 +147,6 @@ pie showData
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ronaldonyango&theme=dark&hide_border=true&background=0d1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF">
 
 </div>
-
----
-
-## 🧠 Product Manager brain vs Developer brain
-
-### The Eternal Struggle - A Data Visualization
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor': '#00D4FF', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#00D4FF', 'lineColor': '#ffffff', 'secondaryColor': '#FF6B35', 'tertiaryColor': '#1a1a1a'}}}%%
-journey
-    title Feature Development Emotional Rollercoaster
-    section PM Requests
-      "We need this yesterday!" : 1: PM, Dev
-      "It's just a small change" : 1: PM
-      "Users will LOVE this!" : 3: PM
-      "Can't we just..." : 1: PM, Dev
-    section Dev Reality Check  
-      "That's not how it works" : 2: Dev
-      "Technical debt alert!" : 1: Dev
-      "Let me check Stack Overflow" : 3: Dev
-      "Fine, but I'm documenting this" : 4: Dev
-    section Acceptance Phase
-      "It works... somehow" : 5: PM, Dev
-      "Let's never speak of this" : 4: PM, Dev
-```
 
 ---
 
