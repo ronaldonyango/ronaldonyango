@@ -1,6 +1,6 @@
 """
 Kaggle Dataset Statistics Fetcher and README Updater
-Handles both fetching stats and updating README based on environment variables.
+Uses persistent HTML comment placeholders that never get replaced permanently.
 """
 
 import os
@@ -33,19 +33,18 @@ class KaggleStatsFetcher:
     
     def setup_authentication(self) -> bool:
         """Setup authentication headers for Kaggle API."""
-
-        username = os.getenv('KAGGLE_USERNAME')
-        key = os.getenv('KAGGLE_KEY')
+        username = "ronaldonyango"
+        key = "2de8425e0d512dc8e0a62aad37a8183e"
         
         if not username or not key:
-            print(" Missing KAGGLE_USERNAME or KAGGLE_KEY environment variables")
+            print("❌ Missing KAGGLE_USERNAME or KAGGLE_KEY environment variables")
             return False
         
         # Create basic auth header
         credentials = base64.b64encode(f"{username}:{key}".encode()).decode()
         self.session.headers['Authorization'] = f"Basic {credentials}"
         
-        print(f" Authentication configured for user: {username}")
+        print(f"✅ Authentication configured for user: {username}")
         return True
     
     def fetch_dataset_stats_api(self, owner: str, dataset: str) -> Optional[Dict[str, int]]:
@@ -145,10 +144,10 @@ class KaggleStatsFetcher:
     
     def fetch_all_stats(self) -> Dict[str, Any]:
         """Fetch statistics for all configured datasets."""
-        print(" Starting Kaggle stats collection...")
+        print("🔍 Starting Kaggle stats collection...")
         
         if not self.setup_authentication():
-            print("  Proceeding without authentication (limited functionality)")
+            print("⚠️  Proceeding without authentication (limited functionality)")
         
         all_stats = {}
         
@@ -158,7 +157,7 @@ class KaggleStatsFetcher:
             dataset = dataset_config['dataset']
             name_key = slugify(name)
             
-            print(f"\n Fetching stats for: {name}")
+            print(f"\n📊 Fetching stats for: {name}")
             print(f"    Dataset: {owner}/{dataset}")
             
             # Try API first, then scraping
@@ -174,7 +173,7 @@ class KaggleStatsFetcher:
             if stats:
                 all_stats[f"{name_key}-views"] = stats['views']
                 all_stats[f"{name_key}-downloads"] = stats['downloads']
-                print(f" Success: {stats['views']:,} views, {stats['downloads']:,} downloads")
+                print(f"✅ Success: {stats['views']:,} views, {stats['downloads']:,} downloads")
             else:
                 all_stats[f"{name_key}-views"] = 0
                 all_stats[f"{name_key}-downloads"] = 0
@@ -184,15 +183,15 @@ class KaggleStatsFetcher:
 
 
 class ReadmeUpdater:
-    """Handles updating README with fetched statistics."""
+    """Handles updating README with persistent HTML comment placeholders."""
     
     def __init__(self, readme_path: str = 'README.md'):
         self.readme_path = readme_path
     
     def update_readme(self, stats: Dict[str, Any]) -> bool:
-        """Update README file with provided statistics."""
+        """Update README file using persistent HTML comment placeholders."""
         if not os.path.exists(self.readme_path):
-            print(f" README file not found: {self.readme_path}")
+            print(f"❌ README file not found: {self.readme_path}")
             return False
         
         try:
@@ -201,30 +200,63 @@ class ReadmeUpdater:
                 content = f.read()
             
             original_content = content
-            
-            # Replace placeholders with actual stats
             replacements_made = 0
+            
+            # Look for HTML comment placeholder patterns
+            # Format: <!-- STATS:key -->value<!-- /STATS:key -->
             for key, value in stats.items():
-                placeholder = f"{{{{ {key} }}}}"
-                if placeholder in content:
-                    content = content.replace(placeholder, f"{value:,}" if isinstance(value, int) else str(value))
+                formatted_value = f"{value:,}"
+                
+                # Pattern to match: <!-- STATS:key -->old_value<!-- /STATS:key -->
+                pattern = r'<!-- STATS:' + re.escape(key) + r' -->(\d{1,3}(?:,\d{3})*|\d+)<!-- /STATS:' + re.escape(key) + r' -->'
+                replacement = f'<!-- STATS:{key} -->{formatted_value}<!-- /STATS:{key} -->'
+                
+                new_content = re.sub(pattern, replacement, content)
+                if new_content != content:
+                    content = new_content
                     replacements_made += 1
-                    print(f"   Replaced {placeholder} with {value}")
+                    print(f"✅ Updated {key}: {formatted_value}")
+            
+            # If no persistent placeholders found, look for traditional placeholders and convert them
+            if replacements_made == 0:
+                print("🔍 No persistent placeholders found, looking for traditional placeholders...")
+                
+                for key, value in stats.items():
+                    formatted_value = f"{value:,}"
+                    
+                    # Look for traditional {{ key }} placeholders
+                    traditional_placeholder = f"{{{{ {key} }}}}"
+                    
+                    if traditional_placeholder in content:
+                        # Replace with persistent format
+                        persistent_replacement = f"<!-- STATS:{key} -->{formatted_value}<!-- /STATS:{key} -->"
+                        content = content.replace(traditional_placeholder, persistent_replacement)
+                        replacements_made += 1
+                        print(f"✅ Converted traditional placeholder {key} to persistent format: {formatted_value}")
             
             if replacements_made == 0:
                 print("⚠️  No placeholders found in README")
-                print("   Make sure your README contains placeholders like: {{ global-suicide-rates-views }}")
+                print("💡 To use this script, your README should contain either:")
+                print(f"   - Persistent: <!-- STATS:global-suicide-rates-views -->0<!-- /STATS:global-suicide-rates-views -->")
+                print(f"   - Traditional: {{{{ global-suicide-rates-views }}}}")
+                print("\n📝 Example README format:")
+                print("```markdown")
+                print("## Kaggle Datasets")
+                print("### Global Suicide Rates (1990-2022)")
+                print("[![Views](https://img.shields.io/badge/Views-<!-- STATS:global-suicide-rates-views -->0<!-- /STATS:global-suicide-rates-views -->-blue)]()")
+                print("[![Downloads](https://img.shields.io/badge/Downloads-<!-- STATS:global-suicide-rates-downloads -->0<!-- /STATS:global-suicide-rates-downloads -->-brightgreen)]()")
+                print("```")
                 return False
             
             # Write updated README
             with open(self.readme_path, 'w', encoding='utf-8') as f:
                 f.write(content)
             
-            print(f" README updated successfully ({replacements_made} replacements)")
+            print(f"✅ README updated successfully ({replacements_made} replacements)")
             return True
             
         except Exception as e:
-            print(f" Error updating README: {str(e)}")
+            print(f"❌ Error updating README: {str(e)}")
             return False
 
 
@@ -233,7 +265,7 @@ def write_github_output(stats: Dict[str, Any]) -> None:
     github_output = os.getenv('GITHUB_OUTPUT')
     
     if not github_output:
-        print("  GITHUB_OUTPUT environment variable not set")
+        print("ℹ️  GITHUB_OUTPUT environment variable not set")
         print(f"Stats: {json.dumps(stats, indent=2)}")
         return
     
@@ -241,19 +273,22 @@ def write_github_output(stats: Dict[str, Any]) -> None:
         with open(github_output, 'a', encoding='utf-8') as f:
             stats_json = json.dumps(stats)
             f.write(f"stats={stats_json}\n")
-        print(" Stats written to GitHub Actions output")
+        print("✅ Stats written to GitHub Actions output")
     except Exception as e:
-        print(f" Error writing to GitHub output: {str(e)}")
+        print(f"❌ Error writing to GitHub output: {str(e)}")
 
 
 def main():
     """Main execution function."""
-    print("=" * 50)
+    print("=" * 60)
+    print("🚀 KAGGLE STATS UPDATER (PERSISTENT HTML COMMENTS)")
+    print("=" * 60)
     
     stats_env = os.getenv('STATS')
     
     if stats_env is not None:
-        print(" README UPDATE MODE")
+        print("📝 README UPDATE MODE")
+        print("-" * 30)
         
         try:
             if stats_env.lower() in ['null', '']:
@@ -261,31 +296,38 @@ def main():
             else:
                 stats = json.loads(stats_env)
         except json.JSONDecodeError as e:
-            print(f" Error parsing STATS JSON: {str(e)}")
+            print(f"❌ Error parsing STATS JSON: {str(e)}")
             print(f"STATS content: '{stats_env}'")
             sys.exit(1)
         
-        print(f"Loaded stats: {json.dumps(stats, indent=2)}")
+        print("📊 Loaded stats:")
+        for key, value in stats.items():
+            print(f"   - {key}: {value:,}")
         
         updater = ReadmeUpdater()
         success = updater.update_readme(stats)
         
         if not success:
+            print("❌ README update failed")
             sys.exit(1)
+        else:
+            print("✅ README update completed successfully")
     
     else:
-        print(" STATS FETCHING MODE")
+        print("🔍 STATS FETCHING MODE")
+        print("-" * 30)
         
         fetcher = KaggleStatsFetcher()
         stats = fetcher.fetch_all_stats()
         
-        print(f"\n Final Stats Summary:")
+        print(f"\n📈 Final Stats Summary:")
+        print("-" * 30)
         for key, value in stats.items():
             print(f"   {key}: {value:,}" if isinstance(value, int) else f"   {key}: {value}")
         
         write_github_output(stats)
     
-    print("=" * 50)
+    print("=" * 60)
 
 
 if __name__ == "__main__":
