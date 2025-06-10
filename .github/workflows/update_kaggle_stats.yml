@@ -5,56 +5,97 @@ on:
     # Runs every 6 hours (at 15 minutes past the hour)
     - cron: '15 */6 * * *'
   workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no changes'
+        required: false
+        default: 'false'
+        type: boolean
 
 env:
   KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+  KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+  KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
   PYTHON_VERSION: '3.10'
 
 jobs:
   update_kaggle_stats:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
-          cache-dependency-path: 'requirements.txt'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests python-slugify
+
+      - name: Verify Kaggle credentials
+        run: |
+          if [ -z "$KAGGLE_USERNAME" ] || [ -z "$KAGGLE_KEY" ]; then
+            echo "❌ Missing Kaggle credentials!"
+            echo "Please set KAGGLE_USERNAME and KAGGLE_KEY secrets in your repository."
+            exit 1
+          else
+            echo "✅ Kaggle credentials found"
+            echo "Username: $KAGGLE_USERNAME"
+          fi
 
       - name: Get Kaggle dataset stats
-        id: dataset_stats
-        run: python scripts/update_kaggle_stats.py
+        id: get_stats
+        run: |
+          echo "Fetching Kaggle dataset statistics..."
+          python scripts/kaggle_stats.py
+        continue-on-error: true
 
-      - name: Update README
-        run: python scripts/update_readme.py
-        env:
-          STATS: ${{ steps.dataset_stats.outputs.stats }}
+      - name: Update README with stats
+        id: update_readme
+        run: |
+          echo "📝 Updating README with latest stats..."
+          STATS="${{ steps.get_stats.outputs.stats }}" python scripts/kaggle_stats.py
+        continue-on-error: true
 
       - name: Check for changes
         id: verify_diff
         run: |
-          if git diff --quiet; then
+          echo "🔍 Checking for changes in README..."
+          if git diff --quiet README.md; then
+            echo "No changes detected in README.md"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
+            echo "Changes detected in README.md"
             echo "changed=true" >> $GITHUB_OUTPUT
+            echo "📋 Changes preview:"
+            git diff --no-color README.md | head -20
           fi
 
       - name: Commit and push changes
-        if: steps.verify_diff.outputs.changed == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v4
+        if: steps.verify_diff.outputs.changed == 'true' || github.event.inputs.force_update == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📊 Updated Kaggle dataset stats [skip ci]"
+          commit_message: "Updated Kaggle dataset stats [skip ci]"
           branch: ${{ github.ref_name }}
           file_pattern: README.md
+          commit_user_name: "kaggle-stats-bot"
+          commit_user_email: "action@github.com"
+          commit_author: "Kaggle Stats Bot <action@github.com>"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Workflow Summary 📊" >> $GITHUB_STEP_SUMMARY
+          echo "- **Stats Fetch**: ${{ steps.get_stats.outcome }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **README Update**: ${{ steps.update_readme.outcome }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes Detected**: ${{ steps.verify_diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit Status**: ${{ steps.commit_changes.outcome || 'skipped' }}" >> $GITHUB_STEP_SUMMARY
