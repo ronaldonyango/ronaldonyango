@@ -123,8 +123,8 @@ else:
 ## Kaggle Datasets
 
 ### Global Suicide Rates (1990-2022)
-[![global-suicide-rates Views](https://img.shields.io/badge/Views-24,727-blue)]()
-[![global-suicide-rates Downloads](https://img.shields.io/badge/Downloads-5,057-brightgreen)]()
+[![Views](https://img.shields.io/badge/Views-<!-- STATS:global-suicide-rates-views -->24,727<!-- /STATS:global-suicide-rates-views -->-blue)]()
+[![Downloads](https://img.shields.io/badge/Downloads-<!-- STATS:global-suicide-rates-downloads -->5,057<!-- /STATS:global-suicide-rates-downloads -->-brightgreen)]()
 
 ---
 
