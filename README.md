@@ -123,8 +123,8 @@ else:
 ## 📊 Kaggle Dataset Performance
 
 ### Global Suicide Rates (1990-2022)
-[![global-suicide-rates Views](https://img.shields.io/badge/Views-0-blue)]()
-[![global-suicide-rates Downloads](https://img.shields.io/badge/Downloads-0-brightgreen)]()
+[![global-suicide-rates Views](https://img.shields.io/badge/Views-{{ global-suicide-rates-views }}-blue)]()
+[![global-suicide-rates Downloads](https://img.shields.io/badge/Downloads-{{ global-suicide-rates-downloads }}-brightgreen)]()
 
 <!-- Add more datasets following the same pattern -->
 
