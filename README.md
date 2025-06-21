@@ -105,11 +105,11 @@ else:
 ## Blogging (My therapy sessions)
 
 <!-- BLOG-POST-LIST:START -->
+- [My SQL queries were longer than my patience](https://medium.com/@ronaldonyango/my-sql-queries-were-longer-than-my-patience-c7727219bd93?source=rss-b646665c09cd------2)
 - [SQLThe Language I Love to Hate &lpar;and Hate to Love&rpar;](https://medium.com/@ronaldonyango/sqlthe-language-i-love-to-hate-and-hate-to-love-69f84f435312?source=rss-b646665c09cd------2)
 - [Mapping Suicide Rates Worldwide: Analyzing 30 Years of Socioeconomic Factors](https://medium.com/@ronaldonyango/mapping-suicide-rates-worldwide-analyzing-30-years-of-socioeconomic-factors-c485fcc16407?source=rss-b646665c09cd------2)
 - [Global suicide rates analysis](https://medium.com/@ronaldonyango/global-suicide-rates-analysis-4480af7754fd?source=rss-b646665c09cd------2)
 - [How I would learn SQL if I started again](https://medium.com/@ronaldonyango/how-i-would-learn-sql-if-i-started-again-15a45aafeff5?source=rss-b646665c09cd------2)
-- [How I became a Data Analyst in just 3 months](https://medium.com/@ronaldonyango/mastering-sql-tools-and-data-engineering-a-self-taught-analysts-journey-6cd36e49c8ed?source=rss-b646665c09cd------2)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
