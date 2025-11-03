@@ -71,28 +71,29 @@ else:
   <img src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" alt="Plotly">
 </p>
 
-### Cloud stuff I'm figuring out
+### Cloud stuff I'm learning
 <p>
   <img src="https://img.shields.io/badge/-GCP-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="GCP">
   <img src="https://img.shields.io/badge/-BigQuery-4385F4?style=flat&logo=googlecloud&logoColor=white" alt="BigQuery">
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
 </p>
 
-### Things I Google daily
+### Things I Google daiy
 <p>
-  <img src="https://img.shields.io/badge/-Postgres-326CE5?style=flat&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/-Python-623CE4?style=flat&logo=python&logoColor=white" alt="Python">
 </p>
 
 ---
 
-## Projects That Didn't Completely Explode
+## 🚀 Featured Projects
 
-| Project | What I built | What actually happened |
-|---------|-------------|------------------------|
-| 🧠 **Suicide Prevention Analysis** | Beautiful socioeconomic insights | Discovered my CSV was 0.0001% corrupted 😱 |
-| 🔄 **Data Export Tool** | Elegant CLI automation | Became team's favorite "magic button" ✨ |
-| 🌐 **Web Analytics Pipeline** | Real-time dashboard paradise | Learned why "eventual consistency" exists ☕ |
+| Project | Tech Stack | Impact |
+|---------|------------|--------|
+| **Suicide Prevention Analysis** | Python, Pandas, Plotly | 24k+ dataset views on Kaggle |
+| **Data Export Automation** | Python, SQL, Airflow | Reduced manual work by 85% |
+| **Web Analytics Pipeline** | GCP, BigQuery, dbt | Real-time dashboards for 50+ users |
 
 <div align="center" style="margin-top:20px">
   <a href="https://www.datascienceportfol.io/ronaldonyango">
@@ -130,18 +131,14 @@ else:
 
 ## GitHub Reality Check
 
-<div align="center">
 
-### Time spent coding reality
-```mermaid
-%%{init: {'pie': {'textPosition': 0.5}, 'themeVariables': {'pieOuterStrokeWidth': '5px'}} }%%
-pie showData
-    title Time Spent Coding
-    "Actual coding" : 15
-    "Debugging" : 35
-    "Googling errors" : 40
-    "Pretending to work" : 10
-```
+## By the Numbers
+
+- **5+ years** turning chaos into clean data
+- **2+** production data pipelines deployed
+- **24,727+** dataset views on Kaggle
+- **Countless** coffee cups sacrificed to the data gods
+
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ronaldonyango&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&include_all_commits=true&count_private=true">
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ronaldonyango&theme=dark&hide_border=true&background=0d1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF">
@@ -152,24 +149,19 @@ pie showData
 
 <div align="center">
 
-## ☕ Let's create something awful together!
+## 💬 Let's Build Something Amazing!
+
+*Have data challenges that need solving? Let's connect!*
 
 <a href="https://www.linkedin.com/in/ronaldonyango/">
-  <img src="https://img.shields.io/badge/DM_me_for-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-
-**Perfect if you:**
-- Have data problems that keep you up at night
-- Want to debate tabs vs spaces (tabs obviously)
-- Need someone to laugh at your database schema  
-- Just want to vent about stakeholder requests
-
----
+<a href="mailto:ronaldonyango.ke@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
 <img src="https://komarev.com/ghpvc/?username=ronaldonyango&color=00D4FF&style=flat-square" alt="Profile views">
 
-<p><i>"I don't always test my code, but when I do, I do it in production"</i> 🫣</p>
-
-<p>Made with ❤️, ☕, and probably too many pandas references</p>
+*"First, solve the problem. Then, write the code." - John Johnson*
 
 </div>
